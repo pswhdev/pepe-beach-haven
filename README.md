@@ -8,4 +8,6 @@ It has useful information, about the accomodation itself,  how to rent the appar
 
 ## Features
 
+## Credits
+The Favicon used was Designed by vectorstock (Image #18631281 at VectorStock.com)
 
