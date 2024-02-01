@@ -20,13 +20,22 @@ body {
 /* Header */
 header {
   background-color: #f2e4dc;
+}
+h1 {
   font-family: Comfortaa, Verdana, sans-serif;
+  text-decoration: none;
 }
 #logo {
-    max-height: 50px;
+  max-height: 5rem;
+  padding: 10px;
 }
+header a {
+  flex-direction: row;
+  align-content: flex-start;
+}
+
 header h1 {
-    display: inline;
+  display: inline;
 }
 /* Main content */
 main {
