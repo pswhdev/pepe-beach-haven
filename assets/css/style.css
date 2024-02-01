@@ -20,6 +20,11 @@ body {
 /* Header */
 header {
   background-color: #f2e4dc;
+  padding: 0 1rem;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+  box-shadow: 0 2px 2px #0d0d0d;
 }
 h1 {
   font-family: Comfortaa, Verdana, sans-serif;
