@@ -56,6 +56,10 @@ header h1 {
   display: inline;
 }
 
+.active {
+    border-bottom: 1px solid #0d0d0d;
+}
+
 /* Main content */
 main {
   background-color: #023859;
