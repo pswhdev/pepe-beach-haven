@@ -30,7 +30,7 @@ header {
   align-items: baseline;
 }
 header > div {
-    display: inline-block;
+  display: inline-block;
 }
 h1 {
   font-family: Comfortaa, Verdana, sans-serif;
@@ -41,7 +41,6 @@ h1 {
 #logo {
   max-height: 3rem;
   margin: 5px 0;
-
 }
 
 header a {
@@ -54,49 +53,51 @@ header ul {
 }
 
 header ul > li {
-    margin-bottom: 1rem;
-    letter-spacing: 2px;
-    font-size: 80%;
+  margin-bottom: 1rem;
+  letter-spacing: 2px;
+  font-size: 80%;
 }
 
-header h1 {
-  display: inline-block;
-}
-
+/* To make the text be aligned in the middle on the y axis with the logo*/
 #logo-text {
-    position: relative;
-    bottom: 20px;
+  position: relative;
+  bottom: 20px;
 }
 
 .active {
-    border-bottom: 1px solid #0d0d0d;
+  border-bottom: 1px solid #0d0d0d;
 }
 
 /* Navbar styles with dropdown toggle */
 #menu {
-    position: absolute;
-    background-color: #f2e4dc;
-    width: 100%;
-    box-shadow: 0 2px 2px #0d0d0d;
-    padding: 0 1rem;
-    left: 0;
-    display: none;
-    top: 100%;
+  position: absolute;
+  background-color: #f2e4dc;
+  width: 100%;
+  box-shadow: 0 2px 2px #0d0d0d;
+  padding: 0 1rem;
+  left: 0;
+  display: none;
+  top: 100%;
 }
 
 #nav-toggle:checked~nav {
     display: block;
-}
+  }
 
 #nav-toggle {
+    position: relative;
+    bottom: 20px;
     display: none;
 }
 
 .nav-toggle-label {
-    display: relative;
-    bottom: 20px;
-    font-size: 2rem;
+  font-size: 2rem;
+  position: relative;
+  bottom: 20px;
+  color: #0d0d0d;
 }
+
+
 
 /* Main content */
 main {
