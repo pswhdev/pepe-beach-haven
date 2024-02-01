@@ -1,6 +1,6 @@
 /* Google Fonts */
-@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap");
 
+  @import url('https://fonts.googleapis.com/css2?family=Alata&family=Comfortaa:wght@300;400;500;600;700&family=Lobster+Two&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&family=Salsa&display=swap');
 /* Asterisk wildcard to override browsers default settings */
 * {
   padding: 0;
@@ -31,12 +31,13 @@ header {
 }
 header > div {
   display: inline-block;
+  padding: 0 2px;
 }
 h1 {
-  font-family: Comfortaa, Verdana, sans-serif;
+  font-family: 'Alata', Verdana, sans-serif;
   text-decoration: none;
-  text-transform: capitalize;
-  font-size: 120%;
+  text-transform: uppercase;
+  font-size: 110%;
 }
 #logo {
   max-height: 3rem;
@@ -64,6 +65,7 @@ header ul > li {
   bottom: 20px;
 }
 
+/* Marks the active web page */
 .active {
   border-bottom: 1px solid #0d0d0d;
 }
@@ -85,9 +87,11 @@ header ul > li {
   }
 
 #nav-toggle {
+    display: none;
+    /* To align the toggle with the text on the header */
     position: relative;
     bottom: 20px;
-    display: none;
+    
 }
 
 .nav-toggle-label {
