@@ -25,6 +25,12 @@ header {
   width: 100%;
   z-index: 10;
   box-shadow: 0 2px 2px #0d0d0d;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+header > div {
+    display: inline-block;
 }
 h1 {
   font-family: Comfortaa, Verdana, sans-serif;
@@ -34,7 +40,8 @@ h1 {
 }
 #logo {
   max-height: 3rem;
-  margin-top: 1rem;
+  margin: 5px 0;
+
 }
 
 header a {
@@ -53,11 +60,42 @@ header ul > li {
 }
 
 header h1 {
-  display: inline;
+  display: inline-block;
+}
+
+#logo-text {
+    position: relative;
+    bottom: 20px;
 }
 
 .active {
     border-bottom: 1px solid #0d0d0d;
+}
+
+/* Navbar styles with dropdown toggle */
+#menu {
+    position: absolute;
+    background-color: #f2e4dc;
+    width: 100%;
+    box-shadow: 0 2px 2px #0d0d0d;
+    padding: 0 1rem;
+    left: 0;
+    display: none;
+    top: 100%;
+}
+
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+.nav-toggle-label {
+    display: relative;
+    bottom: 20px;
+    font-size: 2rem;
 }
 
 /* Main content */

@@ -12,7 +12,7 @@
       content="accomodation, Rio, Rio de Janeiro, Barra, Barra da Tijuca, airbnb, Praia do Pepe, Pepe Beach, apartment, serviced apartment, holidays, beach, rentals"
     />
     <!-- CSS Stylesheet link-->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css" />
     <!-- Title -->
     <title>Pepe Beach Haven</title>
     <!-- Favicon -->
@@ -36,24 +36,37 @@
   </head>
   <body>
     <header>
-      <a href="index.html"><img id="logo" src="assets/images/Logo.png" alt="Logo wiht a minimalistic drawing of a building block beside a palm tree in front of the sea"></a><a href="index.html"><h1>Pepe Beach Haven</h1></a>
+      <div>
+        <a href="index.html"
+          ><img
+            id="logo"
+            src="assets/images/Logo.png"
+            alt="Logo wiht a minimalistic drawing of a building block beside a palm tree in front of the sea"
+        /></a>
+      </div>
+      <div id="logo-text">
+        <a href="index.html"><h1>Pepe Beach Haven</h1></a>
+      </div>
+      <input type="checkbox" id="nav-toggle" name="nav-toggle">
+      <label for="nav-toggle" class="nav-toggle-label">X</label>
       <nav id="menu">
         <ul>
           <li><a href="index.html" class="active">Home</a></li>
           <li><a href="">Accomodation</a></li>
           <li><a href="">Contact us</a></li>
         </ul>
+        
       </nav>
     </header>
     <main>
-        Ready to book? Please visit our Airbnb page by clicking
-          <a href="http://airbnb.com/h/beach-and-mountains-rio" target="_blank"
-            >here <i class="fa-brands fa-airbnb"></i
-          ></a>
+      Ready to book? Please visit our Airbnb page by clicking
+      <a href="http://airbnb.com/h/beach-and-mountains-rio" target="_blank"
+        >here <i class="fa-brands fa-airbnb"></i
+      ></a>
     </main>
     <footer>
       <div>
-         <a href="">Contact us</a>
+        <a href="">Contact us</a>
       </div>
     </footer>
   </body>
