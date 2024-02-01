@@ -22,7 +22,12 @@ header {
   background-color: #f2e4dc;
   font-family: Comfortaa, Verdana, sans-serif;
 }
-
+#logo {
+    max-height: 50px;
+}
+header h1 {
+    display: inline;
+}
 /* Main content */
 main {
   background-color: #023859;
