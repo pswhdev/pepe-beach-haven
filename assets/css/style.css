@@ -20,7 +20,7 @@ body {
 /* Header */
 header {
   background-color: #f2e4dc;
-  padding: 0 1rem;
+  padding: 0 0.5rem;
   position: fixed;
   width: 100%;
   z-index: 10;
@@ -31,7 +31,7 @@ header {
 }
 header > div {
   display: inline-block;
-  padding: 0 2px;
+  padding: 0 1px;
 }
 h1 {
   font-family: "Alata", Verdana, sans-serif;
@@ -39,11 +39,13 @@ h1 {
   text-transform: uppercase;
   font-size: 110%;
 }
-#logo {
-  max-height: 3rem;
-  margin: 5px 0;
+#logo-image {
+  height: 3rem;
 }
 
+#logo {
+  margin-top: 0.5rem;
+}
 header a {
   text-decoration: none;
   color: inherit;
@@ -62,7 +64,7 @@ header ul > li {
 /* To make the text be aligned in the middle on the y axis with the logo*/
 #logo-text {
   position: relative;
-  bottom: 20px;
+  bottom: 16px;
 }
 
 /* Marks the active web page */
@@ -90,13 +92,13 @@ header ul > li {
   display: none;
   /* To align the toggle with the text on the header */
   position: relative;
-  bottom: 20px;
+  bottom: 16px;
 }
 
 .nav-toggle-label {
-  font-size: 2rem;
+  font-size: 1.5rem;
   position: relative;
-  bottom: 20px;
+  bottom: 16px;
   color: #0d0d0d;
 }
 
@@ -105,7 +107,7 @@ main {
   background-color: #023859;
   flex: 1 0 auto;
   color: #f2e4dc;
-  margin-top: 65.5px;
+  margin-top: 61.5px;
 }
 
 /* Footer */
@@ -117,13 +119,18 @@ footer {
 /* Media query fot tablets and up (from 768px and larger screens) */
 @media screen and (min-width: 768px) {
   /* Header */
+  header {
+    height: 78px;
+  }
   /* Make menu always visible to better use horizoltal space */
   #menu {
     position: relative;
+    bottom: 16px;
     width: fit-content;
     padding-right: 1rem;
     box-shadow: none;
     display: block;
+    font-size: 120%;
   }
   /* To make menu items show side by side */
   #menu-items {
@@ -136,5 +143,28 @@ footer {
 
   .nav-toggle-label {
     display: none;
+  }
+
+  #logo-text {
+    font-size: 180%;
+  }
+
+  #logo-image {
+    height: 4rem;
+  }
+  main {
+    margin-top: 78px;
+  }
+}
+
+/*Media query for laptop and larger (from 992px and larger*/
+@media screen and (min-width: 992px) {
+  /* Header */
+  /* Make menu always visible to better use horizoltal space */
+  #menu {
+    font-size: 150%;
+  }
+  #menu-items > li {
+    padding-left: 1.5rem;
   }
 }
