@@ -1,32 +1,37 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap");
+
 /* Asterisk wildcard to override browsers default settings */
 * {
-    padding: 0;
-    margin:0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 /* General styles */
 body {
-    min-height: 100vh;
-    color: #0D0D0D;
-    display: flex;
-    flex-direction: column;
+  min-height: 100vh;
+  color: #0d0d0d;
+  display: flex;
+  flex-direction: column;
+  font-family: Raleway, Arial, sans-serif;
 }
 
 /* Header */
 header {
-    background-color: #F2E4DC;
+  background-color: #f2e4dc;
+  font-family: Comfortaa, Verdana, sans-serif;
 }
 
 /* Main content */
 main {
-    background-color: #023859;
-    flex: 1 0 auto;
-    color: #F2E4DC;
+  background-color: #023859;
+  flex: 1 0 auto;
+  color: #f2e4dc;
 }
 
 /* Footer */
 footer {
-    background-color: #0D0D0D;
-    color: #F2E4DC;
+  background-color: #0d0d0d;
+  color: #f2e4dc;
 }
