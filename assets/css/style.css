@@ -29,16 +29,19 @@ header {
   justify-content: space-between;
   align-items: baseline;
 }
+
 header > div {
   display: inline-block;
   padding: 0 1px;
 }
+
 h1 {
   font-family: "Alata", Verdana, sans-serif;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 110%;
 }
+
 #logo-image {
   height: 3rem;
 }
@@ -46,6 +49,7 @@ h1 {
 #logo {
   margin-top: 0.5rem;
 }
+
 header a {
   text-decoration: none;
   color: inherit;
@@ -126,6 +130,7 @@ footer {
     gap: 1.5%;
     flex: 0 0 auto;
   }
+
   #menu-nav {
     display: flex;
     justify-content: flex-end;
@@ -142,6 +147,7 @@ footer {
     display: block;
     font-size: 120%;
   }
+
   /* To make menu items show side by side */
   #menu-items {
     display: flex;
@@ -162,6 +168,7 @@ footer {
   #logo-image {
     height: 4rem;
   }
+
   main {
     margin-top: 78px;
   }
@@ -174,14 +181,16 @@ footer {
   #menu {
     font-size: 150%;
   }
+
   #menu-items > li {
     padding-left: 1.5rem;
   }
+
   #menu-items a:hover {
     border-bottom: 1px solid #0d0d0d;
   }
+  
   #logo-text {
     font-size: 210%;
   }
-  
 }
