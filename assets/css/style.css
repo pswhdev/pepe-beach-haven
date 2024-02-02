@@ -17,7 +17,8 @@ body {
   font-family: Raleway, Arial, sans-serif;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-family: "Alata", Verdana, sans-serif;
   text-decoration: none;
   text-transform: uppercase;
@@ -129,19 +130,18 @@ main {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-
 }
 
 #hero-text {
   position: absolute;
   bottom: 10px;
   padding-right: 10px;
-  width: 75%;
+  width: 66.66%;
   right: 2px;
 }
 
 #hero-text > h2 {
-  font-size: 140%;
+  font-size: 100%;
   color: #f2e4dc;
   text-align: right;
 }
@@ -212,7 +212,7 @@ footer {
   #logo-image {
     height: 4rem;
   }
-/* To make main visible under the fixed header */
+  /* To make main visible under the fixed header */
   main {
     margin-top: 78px;
   }
@@ -239,7 +239,7 @@ footer {
   }
 
   #hero-text > h2 {
-    font-size: 210%;
+    font-size: 180%;
   }
 
   #logo-text {
@@ -248,5 +248,12 @@ footer {
 
   #footer-links {
     font-size: 150%;
+  }
+}
+
+/* Media query for very large screens larger than 1408px */
+@media screen and (min-width: 1500px) {
+  #hero-image {
+    height: 1000px;
   }
 }
