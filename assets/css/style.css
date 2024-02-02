@@ -123,9 +123,13 @@ footer {
 #footer-links {
   padding: 16px 1rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  font-size: 75%;
+}
+
+#footer-links i {
+  font-size: 110%;
+  color: #f2e4dc;
 }
 
 /* Media query fot tablets and up (from 768px and larger screens) */
@@ -183,8 +187,6 @@ footer {
 }
 
 #footer-links {
-  display: flex;
-  justify-content: space-evenly;
   font-size: 100%;
 }
 
