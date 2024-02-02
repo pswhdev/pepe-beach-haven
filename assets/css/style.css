@@ -55,7 +55,7 @@ header a {
   color: inherit;
 }
 
-header ul {
+ul {
   list-style-type: none;
 }
 
@@ -120,6 +120,14 @@ footer {
   color: #f2e4dc;
 }
 
+#footer-links {
+  padding: 16px 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 75%;
+}
+
 /* Media query fot tablets and up (from 768px and larger screens) */
 @media screen and (min-width: 768px) {
   /* Header */
@@ -168,10 +176,16 @@ footer {
   #logo-image {
     height: 4rem;
   }
-
+/* To make main visible under the fixed header */
   main {
     margin-top: 78px;
   }
+}
+
+#footer-links {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 100%;
 }
 
 /*Media query for laptop and larger (from 992px and larger*/
@@ -189,8 +203,12 @@ footer {
   #menu-items a:hover {
     border-bottom: 1px solid #0d0d0d;
   }
-  
+
   #logo-text {
     font-size: 210%;
+  }
+
+  #footer-links {
+    font-size: 150%;
   }
 }
