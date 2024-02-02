@@ -17,6 +17,13 @@ body {
   font-family: Raleway, Arial, sans-serif;
 }
 
+h1, h2 {
+  font-family: "Alata", Verdana, sans-serif;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 110%;
+}
+
 /* Header */
 header {
   background-color: #f2e4dc;
@@ -114,25 +121,30 @@ main {
 }
 
 /* The hero image */
-.hero-image {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/pikist-13.jpg");
+#hero-image {
+  background-image: url("../images/pikist-13.jpg");
   height: 600px;
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  position: relative;
 
 }
 
-/* /* Place text in the middle of the image
-.hero-text {
-  text-align: center;
+#hero-text {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
-} */
+  bottom: 10px;
+  padding-right: 10px;
+  width: 75%;
+  right: 2px;
+}
+
+#hero-text > h2 {
+  font-size: 140%;
+  color: #f2e4dc;
+  text-align: right;
+}
 
 /* Footer */
 footer {
@@ -224,6 +236,10 @@ footer {
 
   #menu-items a:hover {
     border-bottom: 1px solid #0d0d0d;
+  }
+
+  #hero-text > h2 {
+    font-size: 210%;
   }
 
   #logo-text {
