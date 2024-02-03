@@ -53,7 +53,7 @@ header > div {
   margin-top: 0.5rem;
 }
 
-header a {
+header a, aside a {
   text-decoration: none;
   color: inherit;
 }
@@ -112,6 +112,7 @@ header ul > li {
 /* Main content */
 main {
   flex: 1 0 auto;
+  background-color: #023859;
   color: #f2e4dc;
   margin-top: 61.5px;
 }
