@@ -166,6 +166,24 @@ main {
   font-size: 90%;
 }
 
+
+
+#accomodation{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap:5px;
+}
+
+
+.one-room-collection {
+  flex: 500px;
+}
+
+.accommodation-photos {
+  max-width: 100%;
+}
+
 /* Footer */
 footer {
   background-color: #0d0d0d;
