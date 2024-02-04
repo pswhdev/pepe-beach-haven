@@ -153,20 +153,22 @@ main {
   font-size: 100%;
 }
 
-#advantages > div {
+#advantages-group {
   display: block;
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
+  flex-direction: row;
   padding: 5px;
-  flex-basis: 200px;
+}
+
+.advantages {
+  max-width: 500px;
+  flex: 1 1 300px;
 }
 
 #advantages h3 {
   font-size: 90%;
 }
-
-
 
 #accomodation{
   display: flex;
@@ -174,6 +176,7 @@ main {
   align-items: flex-start;
   gap:5px;
 }
+
 
 
 .one-room-collection {
