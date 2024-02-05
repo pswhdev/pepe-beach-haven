@@ -53,7 +53,8 @@ header > div {
   margin-top: 0.5rem;
 }
 
-header a, aside a {
+header a,
+aside a {
   text-decoration: none;
   color: inherit;
 }
@@ -150,7 +151,9 @@ main {
 }
 
 #reasons > h2 {
-  font-size: 100%;
+  font-size: 200%;
+  margin: 20px 1rem;
+  text-align: center;
 }
 
 #advantages-group {
@@ -159,36 +162,54 @@ main {
   flex-wrap: wrap;
   flex-direction: row;
   gap: 15px;
-  margin: 5px;
+  margin: 0 5px 15px 5px;
 }
 
 .advantages {
-  padding: 5px;
-  margin: 10 px;
+  border-radius: 5px;
+  padding: 2rem 1rem 1rem 1rem;
   max-width: 500px;
   flex: 1 1 300px;
+  margin-top: 5%;
+  position: relative;
+}
+
+.adv-heading {
+  text-align: center;
+}
+
+#reasons p {
+  text-align: justify;
+}
+
+.thumbnails {
+  position: absolute;
+  top: -60%;
+  display: block;
+  border-radius: 50%;
+  height: 5rem;
+  width: 5rem;
+  /* margin: 5px; */
 }
 
 .bg-one {
-  background-color: #3D735A;
+  background-color: #3d735a;
 }
 
 .bg-two {
-  background-color: #347EBF;
+  background-color: #347ebf;
 }
 
 #advantages h3 {
   font-size: 90%;
 }
 
-#accomodation{
+#accomodation {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
-  gap:5px;
+  gap: 5px;
 }
-
-
 
 .one-room-collection {
   flex: 500px;
