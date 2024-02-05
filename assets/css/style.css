@@ -227,6 +227,7 @@ main {
 
 .accommodation-photos {
   max-width: 100%;
+  border-radius: 10px;
 }
 
 /* Footer */
