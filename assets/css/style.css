@@ -224,6 +224,22 @@ main {
   border-radius: 10px;
 }
 
+#bedroom {
+  order: 1;
+}
+
+#livroom {
+  order: 2;
+}
+
+#kitchen {
+  order: 3;
+}
+
+#balcony {
+  order:4;
+}
+
 /* Footer */
 footer {
   background-color: #0d0d0d;
