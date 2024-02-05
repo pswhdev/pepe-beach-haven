@@ -1,6 +1,5 @@
 /* Google Fonts */
-
-@import url("https://fonts.googleapis.com/css2?family=Alata&family=Comfortaa:wght@300;400;500;600;700&family=Lobster+Two&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&family=Salsa&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 /* Asterisk wildcard to override browsers default settings */
 * {
   padding: 0;
@@ -14,17 +13,22 @@ body {
   color: #0d0d0d;
   display: flex;
   flex-direction: column;
-  font-family: Raleway, Arial, sans-serif;
+  font-family: "Raleway", Arial, sans-serif;
   font-size: 80%;
 }
 
 h1,
 h2,
 h3 {
-  font-family: "Alata", Verdana, sans-serif;
+  font-family: "DM Serif Display", Verdana, sans-serif;
   text-decoration: none;
+  text-transform: capitalize;
+  font-size: 150%;
+}
+
+h1 {
   text-transform: uppercase;
-  font-size: 110%;
+  font-size: 180%;
 }
 
 /* Header */
@@ -140,7 +144,6 @@ main {
 }
 
 #hero-text > h2 {
-  font-size: 100%;
   color: #f2e4dc;
   text-align: right;
 }
@@ -151,7 +154,6 @@ main {
 }
 
 #reasons > h2 {
-  font-size: 200%;
   margin: 20px 5px;
   text-align: center;
 }
@@ -204,10 +206,6 @@ main {
 
 #googlemaps {
   margin-top: 30px;
-}
-
-#advantages h3 {
-  font-size: 90%;
 }
 
 #accomodation {
@@ -269,7 +267,7 @@ footer {
     padding-right: 1rem;
     box-shadow: none;
     display: block;
-    font-size: 120%;
+    font-size: 130%;
   }
 
   /* To make menu items show side by side */
@@ -287,7 +285,7 @@ footer {
 
   /* Logo size */
   #logo-text {
-    font-size: 180%;
+    font-size: 150%;
   }
 
   #logo-image {
@@ -359,6 +357,33 @@ footer {
 
 /* Media query for very large screens larger than 1408px */
 @media screen and (min-width: 1500px) {
+
+  #menu {
+    font-size: 180%;
+  }
+
+  #logo-text {
+    font-size: 230%;
+  }
+
+  /* Hero */
+  #hero-text > h2 {
+    font-size: 250%;
+  }
+
+  #reasons > h2 {
+    font-size: 250%;
+  }
+
+  h3 {
+    font-size: 230%;
+  }
+
+  /* Reasons section */
+  #reasons p {
+    font-size: 150%;
+  }
+
   #hero-image {
     height: 1000px;
   }
