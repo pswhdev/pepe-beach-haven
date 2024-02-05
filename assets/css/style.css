@@ -181,11 +181,12 @@ main {
   flex: 1 1 300px;
   margin-top: 30px;
   position: relative;
+  border: 3px outset gray;
 }
 
 .thumbnails {
   position: absolute;
-  top: -30px;
+  top: -35px;
   display: block;
   border-radius: 50%;
   height: 50px;
@@ -201,12 +202,8 @@ main {
   right: 5px;
 }
 
-.bg-one {
-  background-color: #3d735a;
-}
-
-.bg-two {
-  background-color: #347ebf;
+#googlemaps {
+  margin-top: 30px;
 }
 
 #advantages h3 {
