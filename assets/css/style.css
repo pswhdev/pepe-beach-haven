@@ -288,6 +288,7 @@ footer {
     display: none;
   }
 
+  /* Logo size */
   #logo-text {
     font-size: 180%;
   }
@@ -299,8 +300,13 @@ footer {
   main {
     margin-top: 78px;
   }
-}
 
+  /* Hero */
+  #hero-text > h2 {
+    font-size: 150%;
+  }
+}
+/* Footer */
 #footer-links {
   font-size: 100%;
 }
@@ -321,14 +327,17 @@ footer {
     border-bottom: 1px solid #0d0d0d;
   }
 
-  #hero-text > h2 {
-    font-size: 180%;
-  }
-
+  /* Logo */
   #logo-text {
     font-size: 210%;
   }
 
+/* Hero */
+  #hero-text > h2 {
+    font-size: 180%;
+  }
+
+  /* Footer */
   #footer-links {
     font-size: 150%;
   }
