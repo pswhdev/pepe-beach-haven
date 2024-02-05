@@ -112,8 +112,8 @@ header ul > li {
 /* Main content */
 main {
   flex: 1 0 auto;
-  background-color: #023859;
-  color: #f2e4dc;
+  background-color: #f2e4dc;
+  color: #0d0d0d;
   margin-top: 61.5px;
 }
 
@@ -146,7 +146,7 @@ main {
 
 /* Reasons section */
 #reasons {
-  background-color: #023859;
+  background-color: #f2e4dc;
 }
 
 #reasons > h2 {
@@ -158,12 +158,23 @@ main {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  padding: 5px;
+  gap: 15px;
+  margin: 5px;
 }
 
 .advantages {
+  padding: 5px;
+  margin: 10 px;
   max-width: 500px;
   flex: 1 1 300px;
+}
+
+.bg-one {
+  background-color: #3D735A;
+}
+
+.bg-two {
+  background-color: #347EBF;
 }
 
 #advantages h3 {
