@@ -63,10 +63,6 @@ aside a {
   color: inherit;
 }
 
-aside p {
-  font-size: 110%;
-}
-
 ul {
   list-style-type: none;
 }
@@ -247,6 +243,11 @@ main {
 
 #balcony {
   order: 4;
+}
+
+aside > div {
+  font-size: 110%;
+  margin: 20px 0;
 }
 
 /* Footer */
