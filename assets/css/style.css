@@ -306,13 +306,21 @@ footer {
     font-size: 150%;
   }
 
+  /* Reasons section */
   .thumbnails {
-    left:5px
+    left: 5px;
+    height: 65px;
+    width: 65px;
   }
-}
-/* Footer */
-#footer-links {
-  font-size: 100%;
+
+  #reasons p {
+    text-align: center;
+    font-size: 120%;
+  }
+  /* Footer */
+  #footer-links {
+    font-size: 100%;
+  }
 }
 
 /*Media query for laptop and larger (from 992px and larger*/
@@ -336,9 +344,14 @@ footer {
     font-size: 210%;
   }
 
-/* Hero */
+  /* Hero */
   #hero-text > h2 {
     font-size: 180%;
+  }
+
+  /* Reasons section */
+  #reasons p {
+    font-size: 130%;
   }
 
   /* Footer */
@@ -351,5 +364,8 @@ footer {
 @media screen and (min-width: 1500px) {
   #hero-image {
     height: 1000px;
+  }
+  .advantages {
+    max-width: 700px;
   }
 }
