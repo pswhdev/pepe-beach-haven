@@ -165,15 +165,6 @@ main {
   margin: 0 5px 15px 5px;
 }
 
-.advantages {
-  border-radius: 5px;
-  padding: 2rem 1rem 1rem 1rem;
-  max-width: 500px;
-  flex: 1 1 300px;
-  margin-top: 5%;
-  position: relative;
-}
-
 .adv-heading {
   text-align: center;
 }
@@ -182,13 +173,23 @@ main {
   text-align: justify;
 }
 
+.advantages {
+  border-radius: 5px;
+  padding: 30px 10px 15px 10px;
+  max-width: 500px;
+  flex: 1 1 300px;
+  margin-top: 5%;
+  position: relative;
+}
+
 .thumbnails {
   position: absolute;
-  top: -60%;
+  top: -30px;
   display: block;
   border-radius: 50%;
-  height: 5rem;
-  width: 5rem;
+  height: 60px;
+  width: 60px;
+  z-index: 99;
   /* margin: 5px; */
 }
 
