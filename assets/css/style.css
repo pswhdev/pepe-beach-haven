@@ -246,9 +246,26 @@ main {
 }
 
 aside > p {
-  font-size: 110%;
-  margin: 20px 0;
+  margin: 20px 5px;
+  color:#023859
 }
+
+#FAQ {
+text-align: justify;
+margin: 5px 5px;
+}
+
+#FAQ h2 {
+  margin-top: 10px;
+  padding: 10px 0;
+  text-align: center;
+    }
+
+#FAQ h3 {
+font-size: 110%;
+margin-bottom: 5px;
+padding-top: 5px;
+  }
 
 textarea {box-sizing: border-box;	
     width: 100%;
