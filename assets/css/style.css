@@ -14,7 +14,6 @@ body {
   display: flex;
   flex-direction: column;
   font-family: "Raleway", Arial, sans-serif;
-  font-size: 80%;
 }
 
 h1,
@@ -23,12 +22,10 @@ h3 {
   font-family: "DM Serif Display", Verdana, sans-serif;
   text-decoration: none;
   text-transform: capitalize;
-  font-size: 150%;
 }
 
 h1 {
   text-transform: uppercase;
-  font-size: 160%;
 }
 
 /* Header */
@@ -70,7 +67,6 @@ ul {
 header ul > li {
   margin-bottom: 1rem;
   letter-spacing: 2px;
-  font-size: 80%;
 }
 
 /* To make the text be aligned in the middle on the y axis with the logo*/
@@ -108,7 +104,6 @@ header ul > li {
 }
 
 .nav-toggle-label {
-  font-size: 1.5rem;
   position: relative;
   bottom: 16px;
   color: #0d0d0d;
@@ -263,7 +258,6 @@ margin: 5px 5px;
     }
 
 #FAQ h3 {
-font-size: 110%;
 margin-bottom: 5px;
 padding-top: 5px;
   }
@@ -290,12 +284,19 @@ footer {
 }
 
 #footer-links i, #footer-links a {
-  font-size: 90%;
   color: #f2e4dc;
   text-decoration: none;
 }
 
-
+/* Media query for small mobiles (from 250px up to 424px) */
+@media screen and (min-width: 250px) and (max-width: 424px) {
+  * {
+    font-size: 95%;
+  }
+  h1, h2, h3 {
+    font-size: 130%;
+  }
+}
 
 /* Media query fot tablets and up (from 768px and larger screens) */
 @media screen and (min-width: 768px) {
@@ -306,6 +307,10 @@ footer {
     justify-content: flex-start;
     gap: 1.5%;
     flex: 0 0 auto;
+  }
+
+  h1 {
+    font-size: 150%;
   }
 
   #menu-nav {
@@ -322,7 +327,6 @@ footer {
     padding-right: 1rem;
     box-shadow: none;
     display: block;
-    font-size: 130%;
   }
 
   /* To make menu items show side by side */
@@ -338,22 +342,12 @@ footer {
     display: none;
   }
 
-  /* Logo size */
-  #logo-text {
-    font-size: 150%;
-  }
-
   #logo-image {
     height: 4rem;
   }
   /* To make main visible under the fixed header */
   main {
     margin-top: 78px;
-  }
-
-  /* Hero */
-  #hero-text > h2 {
-    font-size: 150%;
   }
 
   /* Reasons section */
@@ -365,27 +359,11 @@ footer {
 
   #reasons p {
     text-align: center;
-    font-size: 120%;
-  }
-
-  #accommodation h2 {
-    font-size: 180%;
-  }
-
-  /* Footer */
-  #footer-links {
-    font-size: 100%;
   }
 }
 
 /*Media query for laptop and larger (from 992px and larger*/
 @media screen and (min-width: 992px) {
-  /* Header */
-  /* Make menu always visible to better use horizoltal space */
-  #menu {
-    font-size: 150%;
-  }
-
   #menu-items > li {
     padding-left: 1.5rem;
   }
@@ -393,56 +371,10 @@ footer {
   #menu-items a:hover {
     border-bottom: 1px solid #0d0d0d;
   }
-
-  /* Logo */
-  #logo-text {
-    font-size: 210%;
-  }
-
-  /* Hero */
-  #hero-text > h2 {
-    font-size: 180%;
-  }
-
-  /* Reasons section */
-  #reasons p {
-    font-size: 130%;
-  }
-
-  /* Footer */
-  #footer-links {
-    font-size: 150%;
-  }
 }
 
 /* Media query for very large screens larger than 1408px */
 @media screen and (min-width: 1500px) {
-  #menu {
-    font-size: 180%;
-  }
-
-  #logo-text {
-    font-size: 230%;
-  }
-
-  /* Hero */
-  #hero-text > h2 {
-    font-size: 250%;
-  }
-
-  #reasons > h2 {
-    font-size: 250%;
-  }
-
-  h3 {
-    font-size: 230%;
-  }
-
-  /* Reasons section */
-  #reasons p {
-    font-size: 150%;
-  }
-
   #hero-image {
     height: 1000px;
   }
