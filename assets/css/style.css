@@ -245,12 +245,6 @@ aside > p {
   margin: 20px 5px;
 }
 
-#contact-aside {
-  text-align: center;
-  color: #f2e4dc;
-  margin: 20px 5px;
-}
-
 #FAQ {
   text-align: justify;
   margin: 1rem;
@@ -265,11 +259,6 @@ aside > p {
 #FAQ h3 {
   margin-bottom: 5px;
   padding-top: 5px;
-}
-
-textarea {
-  box-sizing: border-box;
-  width: 100%;
 }
 
 #contact {
@@ -292,6 +281,7 @@ textarea {
 }
 
 .form {
+  font-family: "Raleway", Arial, sans-serif;
   color: #f2e4dc;
   width: 100%;
   height: 25px;
@@ -300,6 +290,20 @@ textarea {
   border-radius: 2px;
   padding: 0 5px;
 }
+
+textarea {
+  font-family: "Raleway", Arial, sans-serif;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5px;
+}
+
+#contact-aside {
+  text-align: center;
+  color: #f2e4dc;
+  margin: 30px 5px 10px;
+}
+
 .bottom-aligned > div {
   bottom: 0;
   padding: 2rem;
