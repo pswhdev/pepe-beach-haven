@@ -183,7 +183,7 @@ main {
   flex: 1 1 300px;
   margin-top: 30px;
   position: relative;
-  border: 3px outset gray;
+  border: 2px outset gray;
 }
 
 .thumbnails {
@@ -194,7 +194,7 @@ main {
   height: 50px;
   width: 50px;
   z-index: 2;
-  border: 3px solid gray;
+  border: 2px solid gray;
 }
 
 .left-aligned {
