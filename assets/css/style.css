@@ -194,6 +194,7 @@ main {
   height: 50px;
   width: 50px;
   z-index: 2;
+  border: 3px solid gray;
 }
 
 .left-aligned {
