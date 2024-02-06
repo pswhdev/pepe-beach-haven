@@ -288,8 +288,8 @@ footer {
   align-items: center;
 }
 
-#footer-links i, #faq {
-  font-size: 110%;
+#footer-links i, #footer-links a {
+  font-size: 90%;
   color: #f2e4dc;
   text-decoration: none;
 }
