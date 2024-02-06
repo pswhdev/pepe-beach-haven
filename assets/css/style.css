@@ -282,6 +282,7 @@ aside > p {
 }
 
 .form {
+  background:#f2e4dc;
   font-family: inherit;
   color: #f2e4dc;
   width: 100%;
@@ -293,6 +294,7 @@ aside > p {
 }
 
 textarea {
+  background:#f2e4dc;
   font-family: inherit;
   box-sizing: border-box;
   width: 100%;
