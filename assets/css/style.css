@@ -245,7 +245,7 @@ main {
   order: 4;
 }
 
-aside > div {
+aside > p {
   font-size: 110%;
   margin: 20px 0;
 }
