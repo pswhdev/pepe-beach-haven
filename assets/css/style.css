@@ -365,19 +365,19 @@ footer {
   text-decoration: none;
 }
 
-/* Media query for small mobiles (from 250px up to 350px) */
-@media screen and (min-width: 250px) and (max-width: 350px) {
+/* Media query for small mobiles (from 250px up to 400px) */
+@media screen and (min-width: 250px) and (max-width: 400px) {
   * {
     font-size: 95%;
   }
 
   h1 {
-    font-size: 150%;
+    font-size: 140%;
   }
 
   h2,
   h3 {
-    font-size: 130%;
+    font-size: 120%;
   }
 }
 
