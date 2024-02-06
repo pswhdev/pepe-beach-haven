@@ -14,6 +14,7 @@ body {
   display: flex;
   flex-direction: column;
   font-family: "Raleway", Arial, sans-serif;
+  font-size: 14px;
 }
 
 h1,
@@ -26,6 +27,15 @@ h3 {
 
 h1 {
   text-transform: uppercase;
+  font-size: 21px;
+}
+
+h2 {
+  font-size: 19px;
+}
+
+h3 {
+  font-size: 17px;
 }
 
 /* Header */
@@ -213,7 +223,6 @@ main {
   background-size: cover;
   background-position: 80%;
   padding: 20px 20px 20px 20px;
-  
 }
 
 .one-room-collection {
@@ -254,7 +263,7 @@ aside > p {
   margin: 20px 5px;
 }
 
-#accommodation-aside  {
+#accommodation-aside {
   color: #f2e4dc;
 }
 
@@ -295,7 +304,7 @@ aside > p {
 }
 
 .form {
-  background:#f2e4dc;
+  background: #f2e4dc;
   font-family: inherit;
   color: #f2e4dc;
   width: 100%;
@@ -307,7 +316,7 @@ aside > p {
 }
 
 textarea {
-  background:#f2e4dc;
+  background: #f2e4dc;
   font-family: inherit;
   box-sizing: border-box;
   width: 100%;
@@ -323,12 +332,10 @@ textarea {
   color: #f2e4dc;
 }
 
-#reset{
+#reset {
   background-color: #f2e4dc;
   color: #023859;
 }
-
-
 
 #contact-aside {
   text-align: center;
@@ -353,9 +360,9 @@ footer {
 }
 
 #footer-links {
-  padding: 16px 1rem;
+  padding: 16px 5px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -363,22 +370,6 @@ footer {
 #footer-links a {
   color: #f2e4dc;
   text-decoration: none;
-}
-
-/* Media query for small mobiles (from 250px up to 400px) */
-@media screen and (min-width: 250px) and (max-width: 400px) {
-  * {
-    font-size: 95%;
-  }
-
-  h1 {
-    font-size: 140%;
-  }
-
-  h2,
-  h3 {
-    font-size: 120%;
-  }
 }
 
 /* Media query fot tablets and up (from 768px and larger screens) */
@@ -393,13 +384,25 @@ footer {
   }
 
   h1 {
-    font-size: 150%;
+    font-size: 28px;
+  }
+
+  h2 {
+    font-size: 23px;
+  }
+
+  h3 {
+    font-size: 21px;
   }
 
   #menu-nav {
     display: flex;
     justify-content: flex-end;
     flex: 1 0 auto;
+  }
+
+  #footer-links {
+    justify-content: space-around;
   }
 
   /* Make menu always visible to better use horizoltal space */
@@ -428,6 +431,7 @@ footer {
   #logo-image {
     height: 4rem;
   }
+
   /* To make main visible under the fixed header */
   main {
     margin-top: 78px;
@@ -443,34 +447,52 @@ footer {
   #reasons p {
     text-align: center;
   }
-
-  
-/*Media query for laptop and larger (from 992px and larger*/
-@media screen and (min-width: 992px) {
-  #menu-items > li {
-    padding-left: 1.5rem;
-  }
-
-  #menu-items a:hover {
-    border-bottom: 1px solid #0d0d0d;
-  }
-
-  .form:hover, textarea:hover {
-    border: 2px solid #023859;
-  }
-
-  #submit:hover {
-    background-color: #f2e4dc;
-    color: #023859;
-  }
-  #reset:hover {
-    background-color: #023859;
-    color: #f2e4dc;
-  }
 }
 
+  /*Media query for laptop and larger (from 992px and larger*/
+  @media screen and (min-width: 992px) {
+    h1 {
+      font-size: 31px;
+    }
 
-}
+    h2 {
+      font-size: 25px;
+    }
+
+    h3 {
+      font-size: 23px;
+    }
+
+    body {
+      font-size: 18px;
+    }
+
+    .advantages {
+      padding: 30px 10px 20px 10px;
+    }
+
+    #menu-items > li {
+      padding-left: 1.5rem;
+    }
+
+    #menu-items a:hover {
+      border-bottom: 1px solid #0d0d0d;
+    }
+
+    .form:hover,
+    textarea:hover {
+      border: 2px solid #023859;
+    }
+
+    #submit:hover {
+      background-color: #f2e4dc;
+      color: #023859;
+    }
+    #reset:hover {
+      background-color: #023859;
+      color: #f2e4dc;
+    }
+  }
 
 /* Media query for very large screens larger than 1408px */
 @media screen and (min-width: 1500px) {
