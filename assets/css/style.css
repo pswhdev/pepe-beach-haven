@@ -208,20 +208,29 @@ main {
   display: flex;
   flex-wrap: wrap;
   align-items: flex-start;
-  gap: 5px;
+  gap: 15px;
+  background-color: #023859;
+  background-size: cover;
+  background-position: 80%;
+  padding: 20px 20px 20px 20px;
+  
 }
 
 .one-room-collection {
   flex: 500px;
+  color: #f2e4dc;
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 10px;
+  border-radius: 5px;
 }
 
 .accommodation-photos {
   max-width: 100%;
-  border-radius: 15px;
+  border-radius: 5px;
 }
 
 #accommodation h2 {
-  margin: 15px 5px;
+  margin: 5px;
   padding: 5px;
 }
 
@@ -245,18 +254,22 @@ aside > p {
   margin: 20px 5px;
 }
 
-#FAQ {
+#accommodation-aside  {
+  color: #f2e4dc;
+}
+
+#faq {
   text-align: justify;
   margin: 1rem;
 }
 
-#FAQ h2 {
+#faq h2 {
   margin-top: 10px;
   padding: 10px 0;
   text-align: center;
 }
 
-#FAQ h3 {
+#faq h3 {
   margin-bottom: 5px;
   padding-top: 5px;
 }
@@ -314,6 +327,8 @@ textarea {
   background-color: #f2e4dc;
   color: #023859;
 }
+
+
 
 #contact-aside {
   text-align: center;
