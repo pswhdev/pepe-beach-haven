@@ -318,6 +318,7 @@ aside > p {
 textarea {
   background: #f2e4dc;
   font-family: inherit;
+  color:#023859;
   box-sizing: border-box;
   width: 100%;
   padding: 5px;
@@ -327,14 +328,9 @@ textarea {
   font-family: inherit;
   margin: 20px 20px 0 0;
   border-radius: 5px;
-  padding: 10px 20px;
+  padding: 10px 40px;
   background-color: #023859;
   color: #f2e4dc;
-}
-
-#reset {
-  background-color: #f2e4dc;
-  color: #023859;
 }
 
 #contact-aside {
@@ -449,50 +445,46 @@ footer {
   }
 }
 
-  /*Media query for laptop and larger (from 992px and larger*/
-  @media screen and (min-width: 992px) {
-    h1 {
-      font-size: 31px;
-    }
-
-    h2 {
-      font-size: 25px;
-    }
-
-    h3 {
-      font-size: 23px;
-    }
-
-    body {
-      font-size: 18px;
-    }
-
-    .advantages {
-      padding: 30px 10px 20px 10px;
-    }
-
-    #menu-items > li {
-      padding-left: 1.5rem;
-    }
-
-    #menu-items a:hover {
-      border-bottom: 1px solid #0d0d0d;
-    }
-
-    .form:hover,
-    textarea:hover {
-      border: 2px solid #023859;
-    }
-
-    #submit:hover {
-      background-color: #f2e4dc;
-      color: #023859;
-    }
-    #reset:hover {
-      background-color: #023859;
-      color: #f2e4dc;
-    }
+/*Media query for laptop and larger (from 992px and larger*/
+@media screen and (min-width: 992px) {
+  h1 {
+    font-size: 31px;
   }
+
+  h2 {
+    font-size: 25px;
+  }
+
+  h3 {
+    font-size: 23px;
+  }
+
+  body {
+    font-size: 18px;
+  }
+
+  .advantages {
+    padding: 30px 10px 20px 10px;
+  }
+
+  #menu-items > li {
+    padding-left: 1.5rem;
+  }
+
+  #menu-items a:hover {
+    border-bottom: 1px solid #0d0d0d;
+  }
+
+  .form:hover,
+  textarea:hover {
+    border: 2px solid #023859;
+  }
+
+  #submit:hover {
+    background-color: #f2e4dc;
+    color: #023859;
+  }
+}
 
 /* Media query for very large screens larger than 1408px */
 @media screen and (min-width: 1500px) {
