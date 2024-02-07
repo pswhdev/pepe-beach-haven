@@ -305,6 +305,31 @@ aside > p {
   border-radius: 5px;
 }
 
+#thank-main {
+  position: relative;
+}
+
+#thankyou {
+  background-color: #023859;
+  background-size: cover;
+  background-position: 75%;
+  padding: 20px 10% 20px 10%;
+  align-items: center;
+  flex-grow: 1;
+  
+}
+
+#thankyou > h2 {
+  color: #f2e4dc;
+  background-color: rgba(255, 255, 255, 0.4);
+  padding: 30px;
+  border-radius: 5px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 #contact-form > h2 {
   color: #f2e4dc;
   margin-bottom: 20px;
@@ -340,7 +365,7 @@ textarea {
   color: #f2e4dc;
 }
 
-#contact-aside {
+#contact-aside, #thankyou-aside {
   color: #f2e4dc;
   margin: 30px 5px 10px;
 }
