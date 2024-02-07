@@ -160,7 +160,6 @@ main {
 
 #reasons > h2 {
   margin: 20px 5px;
-  text-align: center;
 }
 
 #advantages-group {
@@ -173,12 +172,7 @@ main {
 }
 
 .adv-heading {
-  text-align: center;
   margin-bottom: 10px;
-}
-
-#reasons p {
-  text-align: center;
 }
 
 .advantages {
@@ -228,6 +222,10 @@ iframe {
   background-size: cover;
   background-position: 80%;
   padding: 20px 20px 20px 20px;
+}
+
+.center-aligned{
+  text-align: center;
 }
 
 .one-room-collection {
@@ -280,7 +278,6 @@ aside > p {
 #faq h2 {
   margin-top: 10px;
   padding: 10px 0;
-  text-align: center;
 }
 
 #faq h3 {
@@ -339,7 +336,6 @@ textarea {
 }
 
 #contact-aside {
-  text-align: center;
   color: #f2e4dc;
   margin: 30px 5px 10px;
 }
@@ -444,11 +440,6 @@ footer {
     height: 65px;
     width: 65px;
   }
-
-  #reasons p {
-    text-align: center;
-  }
-}
 
 /*Media query for laptop and larger (from 992px and larger*/
 @media screen and (min-width: 992px) {
