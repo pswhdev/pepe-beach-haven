@@ -114,6 +114,7 @@ header ul > li {
 }
 
 .nav-toggle-label {
+  font-size: 19px;
   position: relative;
   bottom: 16px;
   color: #0d0d0d;
