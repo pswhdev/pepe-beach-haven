@@ -192,7 +192,7 @@ main {
   flex: 1 1 300px;
   margin-top: 30px;
   position: relative;
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 .thumbnails {
