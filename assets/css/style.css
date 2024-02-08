@@ -132,9 +132,10 @@ main {
   margin-top: 61.5px;
 }
 
-.bottom-aligned > div {
-  bottom: 0;
-  padding: 2rem;
+#contact-main-center-aligned {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 .left-aligned {
@@ -296,6 +297,9 @@ aside > p {
   background-size: cover;
   background-position: 75%;
   padding: 20px 10% 20px 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   flex-grow: 1;
 }
 
