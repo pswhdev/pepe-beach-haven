@@ -175,7 +175,7 @@ main {
 
 .advantages {
   border-radius: 5px;
-  padding: 25px 10px 15px 10px;
+  padding: 20px 10px 15px 10px;
   max-width: 500px;
   flex: 1 1 300px;
   margin-top: 30px;
@@ -202,6 +202,7 @@ main {
   right: 5px;
 }
 
+/* iframe Google Maps section */
 #googlemaps {
   margin-top: 10px;
 }
@@ -215,6 +216,7 @@ iframe {
   height: 300px;
 }
 
+/* Accommodation section in accommodation page */
 #accommodation {
   display: flex;
   flex-wrap: wrap;
@@ -231,7 +233,8 @@ iframe {
 }
 
 .one-room-collection {
-  flex: 500px;
+  max-width: 1200px;
+  flex: 1 1 500px;
   color: #f2e4dc;
   background-color: rgba(255, 255, 255, 0.4);
   padding: 10px;
