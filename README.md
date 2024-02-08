@@ -1,12 +1,8 @@
 # Pepe Beach Haven
 
-Pepe Beach Haven is a site where people can find a nice option for accomodation in Rio de Janeiro.
+The website is an advertising for a vacation rental and it is targeted for turists looking for accomodation in Rio de Janeiro, Brazil, more specifically in a neighborhood called Barra da Tijuca and a beach area called Pepe Beach (Praia do Pepe). On the site the user can find valuable information about the accomodation itself, see photos of the rooms, get information about how to rent the appartment, the area where it is located and find answers to frequently asked questions.
 
-The site is intended to target turists traveling to Rio and are looking for acommodation at Pepe Beach (Praia do Pepe) at Barra da Tijuca area.
-
-It has useful information, about the accomodation itself,  how to rent the appartment, how to get there, information about parking, amenities and house rules. In adition the users can find suggestions and ideas of what they can do in the area during their stay.
-
-![Responsive Mockup](https://github.com/lucyrush/readme-template/blob/master/media/love_running_mockup.png)
+![Responsive Mockup](documentation/am-i-responsive-index.png)
 
 ## Features 
 
@@ -16,8 +12,8 @@ In this section, you should go over the different parts of your project, and des
 
 - __Navigation Bar__
 
-  - Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+  - Featured on all four pages, the full responsive navigation bar includes links to the Logo, Home page, Accommodation's photos, frequently asked questions and contact page. It is identical in each page to allow for easy navigation.
+  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 
 ![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
 
@@ -146,3 +142,5 @@ Below you will find a couple of extra tips that may be helpful when completing y
   - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
 
 Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 
+
+[def]: documentation/am-i-responsive-index.png
