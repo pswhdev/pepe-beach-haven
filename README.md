@@ -6,51 +6,49 @@ The website is an advertising for a vacation rental and it is targeted for turis
 
 ## Features 
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so. You will need to explain what value each of the features provides for the user, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
 ### Existing Features
 
 - __Navigation Bar__
 
-  - Featured on all four pages, the full responsive navigation bar includes links to the Logo, Home page, Accommodation's photos, frequently asked questions and contact page. It is identical in each page to allow for easy navigation.
-  - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
+  - Featured on all four pages, the full responsive navigation bar includes links to the Logo, Home page, Accommodation's photos, frequently asked questions (FAQ) and contact page. It is identical in each page to allow for easy navigation.
+  - This section allows the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 
-![Nav Bar](https://github.com/lucyrush/readme-template/blob/master/media/love_running_nav.png)
+![Nav Bar](documentation/navbar.png)
 
 - __The landing page image__
 
-  - The landing includes a photograph with text overlay to allow the user to see exactly which location this site would be applicable to. 
-  - This section introduces the user to Love Running with an eye catching animation to grab their attention
+  - The landing includes a photograph with text overlay to allow the users to understand what the website is about: A vacation rental, the "home away from home".
+  - The photograph chosen is very inviting and awakens the desire to be somewhere nice.
 
-![Landing Page](https://github.com/lucyrush/readme-template/blob/master/media/love_running_landing.png)
+![Landing Page image](documentation/landing-photo.jpg)
 
-- __Club Ethos Section__
+- __Reasons section__
 
-  - The club ethos section will allow the user to see the benefits of joining the Love Running meetups, as well as the benefits of running overall. 
-  - This user will see the value of signing up for the Love Running meetups. This should encourage the user to consider running as their form of exercise. 
+  - The reasons section points out to the user the advantages of staying in the accommodation beign advertised.
+  - The users are going to want to stay at that appartament so that they have access to all the listed benefits, such as the proximity to the beach, good internet quality, shops, bars and restaurants nearby and the views.
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
+![Advantages](documentation/advantages.png)
 
-- __Meetup Times section__
+- __The Map__
 
-  - This section will allow the user to see exactly when the meetups will happen, where they will be located and how long the run will be in kilometers. 
-  - This section will be updated as these times change to keep the user up to date. 
+  - The map shows the exact location of the building where the accomodation is situated.
+  - The users can than see the area and the distances to different locations they may be planing on going to for instance.
 
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
+![Map](documentation/map.png)
 
 - __The Footer__ 
 
-  - The footer section includes links to the relevant social media sites for Love Running. The links will open to a new tab to allow easy navigation for the user. 
-  - The footer is valuable to the user as it encourages them to keep connected via social media
+  - The footer section includes useful internal links to a contact form and a FAQ page It also includes an external link, that takes the user to the airbnb page where the appartament is listed and can be actually booked.
+  - The external link will open to a new tab to allow easy navigation and keep the user on the website.
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
+![Footer](documentation/footer.png)
 
-- __Gallery__
+- __Accomodation photos__
 
-  - The gallery will provide the user with supporting images to see what the meet ups look like. 
-  - This section is valuable to the user as they will be able to easily identify the types of events the organisation puts together. 
+  - In this page the user can see the photos of the appartament where they are going to stay.
+  - The photos of the one same room are grouped for better visualization.
 
-![Gallery](https://github.com/lucyrush/readme-template/blob/master/media/love_running_gallery.png)
+![Photos](documentation/photos.png)
 
 - __The Sign Up Page__
 
