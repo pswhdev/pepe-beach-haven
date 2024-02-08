@@ -10,7 +10,8 @@
 /* General styles */
 body {
   min-height: 100vh;
-  color: #0d0d0d;
+  color: #f2e4dc;
+  background-color: #023859;
   display: flex;
   flex-direction: column;
   font-family: "Raleway", Arial, sans-serif;
@@ -41,6 +42,7 @@ h3 {
 /* Header */
 header {
   background-color: #f2e4dc;
+  color: #0d0d0d;
   padding: 0 0.5rem;
   position: fixed;
   width: 100%;
@@ -123,19 +125,12 @@ header ul > li {
 /* Main content */
 main {
   flex: 1 0 auto;
-  background-color: #f2e4dc;
-  color: #0d0d0d;
   margin-top: 61.5px;
 }
 
 .bottom-aligned > div {
   bottom: 0;
   padding: 2rem;
-}
-
-.blue-bg {
-  background-color: #023859;
-  background-size: cover;
 }
 
 .left-aligned {
@@ -149,8 +144,6 @@ main {
 /* The hero section */
 #hero-image {
   background-image: url("../images/barra-beach.webp");
-  /* Fallback color - if the image doesn't load */
-  background-color: #023859;
   height: 600px;
   width: 100%;
   background-position: center;
@@ -170,9 +163,6 @@ main {
 }
 
 /* Reasons section */
-#reasons {
-  background-color: #f2e4dc;
-}
 
 #reasons > h2 {
   margin: 20px 5px;
@@ -198,7 +188,7 @@ main {
   flex: 1 1 300px;
   margin-top: 30px;
   position: relative;
-  border: 2px outset gray;
+  background-color: rgba(255, 255, 255, 0.4);
 }
 
 .thumbnails {
@@ -209,7 +199,6 @@ main {
   height: 50px;
   width: 50px;
   z-index: 2;
-  border: 2px solid gray;
 }
 
 /* iframe Google Maps section */
@@ -278,11 +267,7 @@ iframe {
 }
 
 aside > p {
-  margin: 20px 5px;
-}
-
-#accommodation-aside {
-  color: #f2e4dc;
+  margin: 40px 5px;
 }
 
 /* FAQ page */
@@ -377,15 +362,13 @@ textarea {
   transform: translate(-50%, -50%);
 }
 
-#contact-aside, #thankyou-aside {
-  color: #f2e4dc;
-  margin: 30px 5px 10px;
-}
+/* #contact-aside, #thankyou-aside {
+  padding: 40px 5px 10px;
+} */
 
 /* Footer */
 footer {
   background-color: #0d0d0d;
-  color: #f2e4dc;
 }
 
 #footer-links {
