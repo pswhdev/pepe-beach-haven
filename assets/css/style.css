@@ -130,7 +130,7 @@ main {
 
 /* The hero section */
 #hero-image {
-  background-image: url("../images/barra-beach.jpg");
+  background-image: url("../images/barra-beach.webp");
   /* Fallback color - if the image doesn't load */
   background-color: #023859;
   height: 600px;
