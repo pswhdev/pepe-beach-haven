@@ -17,7 +17,7 @@ The website is an advertising for a vacation rental and it is targeted for turis
 
 - __The landing page image__
 
-  - The landing includes a photograph with text overlay to allow the users to understand what the website is about: A vacation rental, the "home away from home".
+  - The landing includes a photograph with text overlay to allow the user to understand what the website is about: A vacation rental, the "home away from home".
   - The photograph chosen is very inviting and awakens the desire to be somewhere nice.
 
 ![Landing Page image](documentation/landing-photo.jpg)
@@ -25,14 +25,14 @@ The website is an advertising for a vacation rental and it is targeted for turis
 - __Reasons section__
 
   - The reasons section points out to the user the advantages of staying in the accommodation beign advertised.
-  - The users are going to want to stay at that appartament so that they have access to all the listed benefits, such as the proximity to the beach, good internet quality, shops, bars and restaurants nearby and the views.
+  - The user is going to want to stay at that appartament so that they have access to all the listed benefits, such as the proximity to the beach, good internet quality, shops, bars and restaurants nearby and the views.
 
 ![Advantages](documentation/advantages.png)
 
 - __The Map__
 
   - The map shows the exact location of the building where the accomodation is situated.
-  - The users can than see the area and the distances to different locations they may be planing on going to for instance.
+  - The user can than see the area and the distances to different locations he may be planing on going to for instance.
 
 ![Map](documentation/map.png)
 
@@ -45,20 +45,31 @@ The website is an advertising for a vacation rental and it is targeted for turis
 
 - __Accomodation photos__
 
-  - In this page the user can see the photos of the appartament where they are going to stay.
+  - In this page the user can see the photos of the appartament where they he going to stay.
   - The photos of the one same room are grouped for better visualization.
 
 ![Photos](documentation/photos.png)
 
-- __The Sign Up Page__
+- __The FAQ Page__
+
+  - On the FAQ page the user can find answers to common questions about what is allowed and what is not, and information about parking, check-in and checkout times for instance.
+  - This section is important because it may help the user to take the decision of going ahead and booking the accommodation.
+
+![Faq page](documentation/faq.png)
+
+- __The Contact Us Page__
 
   - This page will allow the user to get signed up to Love Running to start their running journey with the community. The user will be able specify if they would like to take part in road, trail or both types of running. The user will be asked to submit their full name and email address. 
 
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
+![Contact us](documentation/contact-us.png)
 
-For some/all of your features, you may choose to reference the specific project files that implement them.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
+  - The form allows the user to send a message and get in touch directly with the owner of the apartament.
+  - On the form there were some hover effects added for computers, where the user interacts with the form by using the mouse or the 'Tab' key. This way the user can clearly identify which field is active facilitating the task of filling up the form.
+  - The images below depict the hover effect on the text field and on the send button (blue inactive and white active)
+  
+![Responsive hover over field](documentation/highlight-hover.png)
+![Send button normal](documentation/button-normal.png)
+![Send button hover](documentation/button-hover.png)
 
 ### Features Left to Implement
 
@@ -66,7 +77,7 @@ In addition, you may also use this section to discuss plans for additional featu
 
 ## Testing 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the user to achieve his goals.
 
 In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
