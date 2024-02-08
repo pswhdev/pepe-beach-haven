@@ -366,10 +366,6 @@ textarea {
   transform: translate(-50%, -50%);
 }
 
-/* #contact-aside, #thankyou-aside {
-  padding: 40px 5px 10px;
-} */
-
 /* Footer */
 footer {
   background-color: #0d0d0d;
@@ -455,7 +451,6 @@ footer {
 
   /* Reasons section */
   .thumbnails {
-    left: 5px;
     height: 65px;
     width: 65px;
   }
@@ -479,18 +474,26 @@ footer {
     font-size: 18px;
   }
 
-  .advantages {
-    padding: 30px 10px 20px 10px;
-  }
-
   #menu-items > li {
     padding-left: 1.5rem;
   }
-
+/* To give the user a feedback of hovering over that specific link */
   #menu-items a:hover {
     border-bottom: 1px solid #0d0d0d;
   }
 
+  /* Reasons section */
+  /* To align all thumbnails on the left */
+  .thumbnails {
+    left: 5px;
+  }
+
+  .advantages {
+    padding: 30px 10px 20px 10px;
+  }
+
+  /* Contact us page */
+  /* To give the user a feedback of hovering over that specific fields and button */
   .form:hover,
   textarea:hover {
     border: 2px solid #023859;
