@@ -168,7 +168,6 @@ main {
 }
 
 /* Reasons section */
-
 #reasons > h2 {
   margin: 20px 5px;
 }
@@ -486,7 +485,7 @@ footer {
   #menu-items > li {
     padding-left: 1.5rem;
   }
-/* To give the user a feedback of hovering over that specific link */
+  /* To give the user a feedback of hovering over that specific link */
   #menu-items a:hover {
     border-bottom: 1px solid #0d0d0d;
   }
@@ -523,8 +522,4 @@ footer {
   .advantages {
     max-width: 700px;
   }
-
-  /* .one-room-collection {
-    flex: 1 1 1200px;
-  } */
 }
