@@ -52,7 +52,7 @@ The website is an advertising for a vacation rental and it is targeted for turis
 
 - __The FAQ Page__
 
-  - On the FAQ page the user can find answers to common questions about what is allowed and what is not, and information about parking, check-in and checkout times for instance.
+  - On the FAQ page the user can find answers to common questions about what is allowed and what is not, and information about parking, check-in and checkout times and what is the best way to get there for instance.
   - This section is important because it may help the user to take the decision of going ahead and booking the accommodation.
 
 ![Faq page](documentation/faq.png)
@@ -66,7 +66,7 @@ The website is an advertising for a vacation rental and it is targeted for turis
   - The form allows the user to send a message and get in touch directly with the owner of the apartament.
   - On the form there were some hover effects added for computers, where the user interacts with the form by using the mouse or the 'Tab' key. This way the user can clearly identify which field is active facilitating the task of filling up the form.
   - The images below depict the hover effect on the text field and on the send button (blue inactive and white active)
-  
+
 ![Responsive hover over field](documentation/highlight-hover.png)
 ![Send button normal](documentation/button-normal.png)
 ![Send button hover](documentation/button-hover.png)
