@@ -1,8 +1,24 @@
-# Testing 
+# Pepe Beach Haven Testing
+
+## CONTENTS
+
+* [AUTOMATED TESTING](#automated-testing)
+  * [W3C Validator](#w3c-validator)
+  * [JavaScript Validator](#javascript-validator)
+  * [Lighthouse](#lighthouse)
+* [MANUAL TESTING](#manual-testing)
+  * [Testing User Stories](#testing-user-stories)
+  * [Full Testing](#full-testing)
 
 A series of manual tests were conducted to ensure the robust functionality and usability of the website. Each project feature, like navigation menu, links and form submissions were carefully examined to ascertain its proper operation and alignment with user needs.
 
-The testing in different  browsers and diverse computers and mobile devices of different sizes and models show the website works reliably and effectivelly, providing users with a smooth navigation experience. The website is fully responsvive resizing the content of all pages according to the devices's screen sizes as can be seen on the images below.
+The testing in different  browsers and diverse computers and mobile devices of different sizes and models show the website works reliably and effectivelly, providing users with a smooth navigation experience.
+
+Visit the deployed site: [Pepe Beach Haven](https://pswhdev.github.io/pepe-beach-haven/)
+
+## Responsiveness test
+
+ The website is fully responsvive resizing the content of all pages according to the devices's screen sizes as can be seen on the images below.
 
 ### The home page:
 ![Responsive home](documentation/am-i-responsive-index-two.png)
@@ -42,13 +58,13 @@ The testing in different  browsers and diverse computers and mobile devices of d
 
 Home page:
 
-![Home page lh test desktop](documentation/lh-desktop-index.png)
+![Home page lh test desktop](documentation/lh-index-desktop.png)
 
 ![Home page lh test mobile](documentation/lh-mobile-index.png)
 
 Accomodation page:
 
-![Accommodation page lh test desktop](documentation/lh-desktop-accommodation.png)
+![Accommodation page lh test desktop](documentation/lh-accommodation-desktop.png)
 
 ![Accommodation page lh test mobile](documentation/lh-mobile-accommodation.png)
 
@@ -74,23 +90,11 @@ Thanks you page:
 
 
 
-# The Quiz Arms -  Testing
 
-![The Quiz Arms shown on a variety of screen sizes](assets/images/the-quiz-arms.png)
-
-Visit the deployed site: [The Quiz Arms](https://kera-cudmore.github.io/TheQuizArms/)
 
 - - -
 
-## CONTENTS
 
-* [AUTOMATED TESTING](#automated-testing)
-  * [W3C Validator](#w3c-validator)
-  * [JavaScript Validator](#javascript-validator)
-  * [Lighthouse](#lighthouse)
-* [MANUAL TESTING](#manual-testing)
-  * [Testing User Stories](#testing-user-stories)
-  * [Full Testing](#full-testing)
 
 Testing was ongoing throughout the entire build. I utilised Chrome developer tools whilst building to pinpoint and troubleshoot any issues as I went along.
 

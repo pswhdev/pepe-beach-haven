@@ -150,10 +150,10 @@ Google Fonts were utilized to import the selected fonts for use on the website.
  - For the headings, Verdana was chosen as a browser-safe font, while Arial was used for the body text. Sans-serif was designated as the fallback font for both.
 
 DM Serif Display example: 
-![DM Serif Display Example]()
+![DM Serif Display Example](documentation/DM-sample.png)
 
 Raleway example
-![Raleway Example]()
+![Raleway Example](documentation/railway-sample.png)
 
 ### Imagery
 
@@ -200,31 +200,19 @@ Wireframes were initially created for both mobile and desktop versions using Bal
 - [Webpage Spell-Check](https://chrome.google.com/webstore/detail/webpage-spell-check/mgdhaoimpabdhmacaclbbjddhngchjik/related) - a google chrome extension that allows you to spell check your webpage. Used to check the site and the readme for spelling errors.
 
 
-## Deployment
-
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub) 
-
-- The site was deployed to GitHub pages. The steps to deploy are as follows: 
-  - In the GitHub repository, navigate to the Settings tab 
-  - From the source section drop-down menu, select the Master Branch
-  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
-
-The live link can be found here - https://code-institute-org.github.io/love-running-2.0/index.html 
-
-## Deployment & Local Development
+## Deployment and Local deployment:
 
 ### Deployment
 
-The site is deployed using GitHub Pages - [The Quiz Arms](https://kera-cudmore.github.io/TheQuizArms/).
+- The site was deployed to GitHub pages. The steps taken to deploy were as follows: 
+  - Log in (or sign up) to Github.
+  - In the GitHub repository, navigate to the Settings tab 
+  - Select pages in the left hand navigation menu.
+  - From the source dropdown select main branch and press save.
+  - The site has now been deployed, please note that this process may take a few minutes before the site goes live.
+ 
 
-To Deploy the site using GitHub Pages:
-
-1. Login (or signup) to Github.
-2. Go to the repository for this project, [kera-cudmore/TheQuizArms](https://github.com/kera-cudmore/TheQuizArms).
-3. Click the settings button.
-4. Select pages in the left hand navigation menu.
-5. From the source dropdown select main branch and press save.
-6. The site has now been deployed, please note that this process may take a few minutes before the site goes live.
+The live link can be found here - [Pepe Beach Haven](https://pswhdev.github.io/pepe-beach-haven/)
 
 ### Local Development
 
@@ -232,102 +220,85 @@ To Deploy the site using GitHub Pages:
 
 To fork the repository:
 
-1. Log in (or sign up) to Github.
-2. Go to the repository for this project, [kera-cudmore/TheQuizArms](https://github.com/kera-cudmore/TheQuizArms)
-3. Click the Fork button in the top right corner.
+  - Log in (or sign up) to Github.
+  - Go to the repository for this project, [pswhdev/Pepe Beach Haven](https://github.com/pswhdev/pepe-beach-haven)
+  - Click the Fork button in the top right corner.
 
 #### How to Clone
 
 To clone the repository:
 
-1. Log in (or sign up) to GitHub.
-2. Go to the repository for this project, [kera-cudmore/TheQuizArms](https://github.com/kera-cudmore/TheQuizArms)
-3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
-4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
-5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
+  - Log in (or sign up) to GitHub.
+  - Go to the repository for this project, [pswhdev/Pepe Beach Haven](https://github.com/pswhdev/pepe-beach-haven)
+  - Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+  - Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+  - Type 'git clone' into the terminal and then paste the link you copied from the repository. Press enter.
 
 
 ## Testing
 
-Please refer to [TESTING.md](TESTING.md) file for all testing carried out.
+Please refer to [TESTING.md](TESTING.md) file for details on all testing conducted.
 
 ## Fixed bugs
 During the test phase a few bugs were detected and corrected accordingly:
-1. The logo and the logo text wouldn't align nicely, so after trying numerous approaches the problem was fixed by using `position: relative;` and definig the distance to the bottom `bottom: 16px;` for the logo's text;
-2. The nav toggle showed the same missalignment and the same approach was used to fix it;
-3. The mountain on the homepage's image would be cropped on very large screens (1600px) and it didn't look as good. To fix the problem a media query was created for very large screens with a rule with a larger the height for the image;
-4. The background color of the containers on the reasons section as well as the container that groups the photos on the accommodation page and the container of the form on contact and the message on the "thank you" pages didn't offer enough contrast making the text difficult to read. To fix this issue, the transparency was reduced and it created more contrast while still adding a nice look on the pages;
-5. The embedded Google Maps would not cover the width of the page. The fix for the problem was to set a ` width: 100%;` on a css rule for the iframe element;
-6. The photos on the accommodation page were not displaying nicely when looked on larger screens. To remediate the situation, the order of the room's photos was changed using the css "order" property.
-7. During the Mid-Point Project Review call with my mentor it was pointed out that the contact us form could be submitted with an empty space on the First name and Last name fields,even though the "required" property was present in the input elements. After looking online on how to solve the problem, the following solution was found on the [Stackoverflow website](https://stackoverflow.com/questions/13766015/is-it-possible-to-configure-a-required-field-to-ignore-white-space) and the following attributes were added to the input elements: `required pattern=".*\S+.*" title="This field is required"`.
+1. The logo and the logo text initially didn't align nicely. After attempting various approaches, the issue was resolved by utilizing position: relative; and defining the distance to the bottom using bottom: 16px; for the logo's text.
+2. The nav toggle showed the same misalignment and the same approach was used to fix it.
+3. The mountain on the homepage's image would be cropped on very large screens (1600px) and didn't look as good. To address this issue, a media query was implemented specifically for very large screens, adjusting the height of the image to ensure optimal display.
+4. The background color of the containers in the reasons section, the containers grouping the photos on the accommodation page, the container of the form on the contact page and the one enclosing the message on the "thank you" page, didn't offer enough contrast, making the text difficult to read. To address this issue, the transparency was reduced, creating more contrast while still maintaining a visually pleasing appearance on the pages.
+5. The embedded Google Maps did not cover the width of the page. The solution to this issue was to apply a CSS rule to the iframe element, setting its width to 100%.
+6. The photos on the accommodation page did not display nicely on larger screens. To address this issue, the order of the room's photos was adjusted using the CSS "order" property.
+7. During the Mid-Point Project Review call with my mentor, it was noted that the contact us form could be submitted with an empty space in the First Name and Last Name fields, despite the "required" property being present in the input elements. After researching online for a solution, the following solution was found on the  [Stackoverflow website](https://stackoverflow.com/questions/13766015/is-it-possible-to-configure-a-required-field-to-ignore-white-space) and the following attributes were added to the input elements: `required pattern=".*\S+.*" title="This field is required"`.
 8. The navigation menu was not nicely aligned when the site was visited using the Mozilla Firefox browser.
 
 ![Nav menu problem](documentation/nav-menu-firefox-problem.png)
 
-To fix this problem a new css rule was used on the nav-menu selector `align-self: flex-end;`:
+To resolve this issue, a new CSS rule was applied to the nav-menu selector, `align-self: flex-end;`:
 
 ![Nav menu problem](documentation/nav-menu-firefox-fixed.png)
 
 ## Unfixed Bugs
 
-1. The fix for problem 7 cannot be used for the "textarea" element and therefore it is possible to submit the form without a message on it. So far I couldn't find a solution for this problem using exclusively html language and I believe the use of aditional programming, using JavaScript would be necessary to fix this problem.
+1. The solution implemented for problem 7 cannot be applied to the "textarea" element, allowing the form to be submitted without a message. As of now, no solution has been found using HTML alone. It's likely that additional programming, such as JavaScript, would be necessary to address this issue.
+
 
 ## Credits
 
 ### Code Used
 
-* I used [this You Tube tutorial](https://www.youtube.com/watch?v=XH5OW46yO8I) to learn how to create a modal for the how to play section.
+- During the development of the website, I utilized code snippets from the "Love Running" and "Coders Coffeehouse" projects provided in the Code Institute Modules.
 
-* As the API I used for the questions declared the correct answer and then had an array of incorrect answers, I had to find a way to shuffle the answers together so that the correct answer wouldn't always appear on the same button. Research led me to the Fisher-Yates Shuffle. Other methods of shuffling can favour some items in the array more than others, however the Fisher Yates Shuffle allows for a more even spread of probability of the answer being placed on each button. I used the following [YouTube tutorial](https://www.youtube.com/watch?v=eATLMjs7y4s&list=PL5egNEXQTWmFHAoWFVRLNAvD-9zzyWVxA&index=3) to further adapt the shuffle I had researched on W3Schools to work with the data I had.
+- I used the CSS Tutorial from [W3Schools](https://www.w3schools.com/) in order to better understand the CSS language.
 
-As the JavaScript modules of the Code Institute Diploma did not cover local storage, I had to do a bit of research into this topic myself in order to set up the high scores section of my site.
-
-* I used this [video tutorial](https://www.youtube.com/watch?v=DFhmNLKwwGw&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx&index=9) on YouTube by [James Q Quick](https://www.youtube.com/channel/UC-T8W79DN6PBnzomelvqJYw) which taught me to save the team name and score to an object, that would then be saved into an array in local storage. It also explained how to sort the items in the array into descending score order, and then to splice the array, I have used the MAX_HIGH_SCORES as my point to splice.
-
-* I used this [video tutorial](https://www.youtube.com/watch?v=jfOv18lCMmw&list=PLDlWc9AfQBfZIkdVaOQXi1tizJeNJipEx&index=10) on YouTube by [James Q Quick](https://www.youtube.com/channel/UC-T8W79DN6PBnzomelvqJYw) to learn how to insert the local storage into the high scores page.
+- I learned how to optimize photos for web use by following [this You Tube tutorial](https://www.youtube.com/watch?v=bfACnNIw2qA&t=613s).
 
 ### Content
 
-Readme documentation was inspired by both sample README from Code Institue and the README files from Kera Cudmore for being so complete and well written.
+The documentation in the README file was inspired by both the sample README files provided by Code Institute and the README files authored by Kera Cudmore for the thoroughness and clarity.
 
-All other content for the site, such as introduction messages and instructions were written by myself.
+Text revisions were made with the assistance from ChatGPT.
 
 ### Media
 
-[Page background image of a pub](https://pixabay.com/photos/bar-pub-cafe-establishment-stools-2209813/)
+- [Main page background image](https://www.pikist.com/free-photo-ssjyk/download). The photograph on the pikist website was mirrored, and I corrected the mirroring in order to have an accurate image of the beach as it actually is.
+
+- Reasons section Thumbnail Photos:
+
+  - [Sunset photo](https://unsplash.com/photos/the-sun-is-setting-over-the-ocean-with-waves-Yisr9qcGuXM)
+
+  - [Sand Beach](https://jagwire.augusta.edu/barra-da-tijuca-beach/)
+
+  - [Bar](http://www.aquinabarra.com.br/Destaque/184/Gastronomia/Uma-selecao-de-bares-para-amar-a-Olegario-Maciel)
+
+  - [Connectivity](https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Applications-internet.svg/768px-Applications-internet.svg.png)
+
+- The page's logo was generated using artificial intelligence, specifically DALL·E 3 by OpenAI, accessed through Microsoft's Bing platform.
 
 ### Acknowledgments
 
-I would like to acknowledge the following people:
+I would like to acknowledge:
 
-* Jubril Akolade - My Code Institute Mentor.
+- My mentor, Jubril Akolade, for providing guidance throughout the development process.
 
-* Kera Cudmore - For providing a great webinar and plenty of material on how to write a good README.
+- Kera Cudmore for her exemplary README files, which served as a model for the documentation included in this project.
 
-* The Code Institute Slack channel for helping me to find a solution for my problems.
-
-
-
-
-
-
-Congratulations on completing your Readme, you have made another big stride in the direction of being a developer! 
-
-## Other General Project Advice
-
-Below you will find a couple of extra tips that may be helpful when completing your project. Remember that each of these projects will become part of your final portfolio so it’s important to allow enough time to showcase your best work! 
-
-- One of the most basic elements of keeping a healthy commit history is with the commit message. When getting started with your project, read through [this article](https://chris.beams.io/posts/git-commit/) by Chris Beams on How to Write  a Git Commit Message 
-  - Make sure to keep the messages in the imperative mood 
-
-- When naming the files in your project directory, make sure to consider meaningful naming of files, point to specific names and sections of content.
-  - For example, instead of naming an image used ‘image1.png’ consider naming it ‘landing_page_img.png’. This will ensure that there are clear file paths kept. 
-
-- Do some extra research on good and bad coding practices, there are a handful of useful articles to read, consider reviewing the following list when getting started:
-  - [Writing Your Best Code](https://learn.shayhowe.com/html-css/writing-your-best-code/)
-  - [HTML & CSS Coding Best Practices](https://medium.com/@inceptiondj.info/html-css-coding-best-practice-fadb9870a00f)
-  - [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#General)
-
-Getting started with your Portfolio Projects can be daunting, planning your project can make it a lot easier to tackle, take small steps to reach the final outcome and enjoy the process! 
-
-[def]: documentation/am-i-responsive-index.png
+- The Code Institute Slack channel members for helping me find solutions for my problems.
