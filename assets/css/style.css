@@ -237,8 +237,7 @@ iframe {
 }
 
 .one-room-collection {
-  max-width: 1000px;
-  flex: 1 1 500px;
+  flex: 1 1 1200px;
   color: #f2e4dc;
   background-color: rgba(255, 255, 255, 0.2);
   padding: 10px;
@@ -247,6 +246,7 @@ iframe {
 
 .accommodation-photos {
   max-width: 100%;
+  max-height: 85vh;
   border-radius: 5px;
 }
 
@@ -264,11 +264,15 @@ iframe {
 }
 
 #kitchen {
-  order: 3;
+  order: 4;
 }
 
 #balcony {
-  order: 4;
+  order: 3;
+}
+
+#bathroom{
+  order: 5;
 }
 
 aside > p {
@@ -510,12 +514,17 @@ footer {
   }
 }
 
-/* Media query for very large screens larger than 1408px */
+/* Media query for very large screens larger than 1500px */
 @media screen and (min-width: 1500px) {
   #hero-image {
     height: 1000px;
   }
+
   .advantages {
     max-width: 700px;
   }
+
+  /* .one-room-collection {
+    flex: 1 1 1200px;
+  } */
 }
