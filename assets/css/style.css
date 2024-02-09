@@ -418,6 +418,7 @@ footer {
   #menu-nav {
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     flex: 1 0 auto;
   }
 

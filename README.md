@@ -73,13 +73,33 @@ The website is an advertising for a vacation rental and it is targeted for turis
 
 ### Features Left to Implement
 
-- Another feature idea
+- Add link or widget to show the weather forecast.
+- Add page with information and ideas of what to do in the area and sitgh seeing tours.
+- Add a list of available amenities and electro-electronics.
+- Add language options for the whole website.
+- Add link or embedded video of a webcam with live images of the beach (start to be controled bu the user to avoid bad user experience)
+
 
 ## Testing 
 
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your project’s features and ensure that they all work as intended, with the project providing an easy and straightforward way for the user to achieve his goals.
+A series of manual tests were conducted to ensure the robust functionality and usability of the website. Each project feature, like navigation menu, links and form submissions were carefully examined to ascertain its proper operation and alignment with user needs.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+The testing in different  browsers and diverse computers and mobile devices of different sizes and models show the website works reliably and effectivelly, providing users with a smooth navigation experience. The website is fully responsvive resizing the content of all pages according to the devices's screen sizes as can be seen on the images below.
+
+### The home page:
+![Responsive home](documentation/am-i-responsive-index-two.png)
+
+### The accommodation page:
+![Responsive accomodation](documentation/am-i-responsive-accommodation.png)
+
+### The FAQ page:
+![Responsive faq](documentation/am-i-responsive-faq.png)
+
+### The contact us page:
+![Responsive contact us](documentation/am-i-responsive-contact.png)
+
+### The thank you page:
+![Responsive thank you](documentation/am-i-responsive-thankyou.png)
 
 You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
