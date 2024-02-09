@@ -5,44 +5,32 @@ The website serves as an advertisement for vacation rentals targeted at tourists
 ![Responsive Mockup](documentation/am-i-responsive-index.png)
 
 ## CONTENTS
+# Table of Contents
 
-* [User Experience](#user-experience-ux)
-  * [User Stories](#user-stories)
-
-* [Design](#design)
-  * [Colour Scheme](#colour-scheme)
-  * [Typography](#typography)
-  * [Imagery](#imagery)
-  * [Wireframes](#wireframes)
-  * [Features](#features)
-    * [The Home Page](#the-home-page)
-    * [The Game Page](#the-game-page)
-    * [The High Scores Page](#the-high-scores-page)
-    * [The 404 Error Page](#the-404-error-page)
-    * [Future Implementations](#future-implementations)
-  * [Accessibility](#accessibility)
-
-* [Technologies Used](#technologies-used)
-  * [Languages Used](#languages-used)
-  * [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
-
-* [Deployment & Local Development](#deployment--local-development)
-  * [Deployment](#deployment)
-  * [Local Development](#local-development)
-    * [How to Fork](#how-to-fork)
-    * [How to Clone](#how-to-clone)
-
-* [Testing](#testing)
-  * [Solved Bugs](#solved-bugs)
-  * [Known Bugs](#known-bugs)
-  
-* [Credits](#credits)
-  * [Code Used](#code-used)
-  * [Content](#content)
-  * [Media](#media)
-  * [Acknowledgments](#acknowledgments)
-
-
+1. [Features](#features)
+   - [Existing Features](#existing-features)
+   - [Features Left to Implement](#features-left-to-implement)
+2. [User Experience (UX)](#user-experience-ux)
+   - [User Stories](#user-stories)
+3. [Design](#design)
+   - [Color Scheme](#color-scheme)
+   - [Typography](#typography)
+   - [Imagery](#imagery)
+   - [Wireframes](#wireframes)
+4. [Technologies Used](#technologies-used)
+   - [Languages Used](#languages-used)
+   - [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
+5. [Deployment and Local Deployment](#deployment-and-local-deployment)
+   - [Deployment](#deployment)
+   - [Local Development](#local-development)
+6. [Testing](#testing)
+   - [Fixed Bugs](#fixed-bugs)
+   - [Unfixed Bugs](#unfixed-bugs)
+7. [Credits](#credits)
+   - [Code Used](#code-used)
+   - [Content](#content)
+   - [Media](#media)
+   - [Acknowledgments](#acknowledgments)
 
 ## Features 
 
