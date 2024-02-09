@@ -5,6 +5,7 @@ The website serves as an advertisement for vacation rentals targeted at tourists
 ![Responsive Mockup](documentation/am-i-responsive-index.png)
 
 ## CONTENTS
+
 # Table of Contents
 
 1. [Features](#features)
@@ -112,7 +113,7 @@ The website serves as an advertisement for vacation rentals targeted at tourists
 
   - As a traveler planning a trip to Rio de Janeiro:
     - I want to easily find and book accommodation so I can have a comfortable place to stay during my visit.
-    - I want to view high-quality photos and detailed descriptions of available apartments, so I can make an informed decision about where to stay.
+    - I want to view high-quality photos of the apartment, so I can decide if it is a place I would like to stay.
     - I want to access practical information about the surrounding area to help plan my activities during my stay.
     - I want to easily find answers to frequently asked questions (FAQs) such as check-in process, and policies.
 
@@ -290,3 +291,5 @@ I would like to acknowledge:
 - Kera Cudmore for her exemplary README files, which served as a model for the documentation included in this project.
 
 - The Code Institute Slack channel members for helping me find solutions for my problems.
+
+- My mum, Fernanda Soares for helping me with the manual tests in many devices and for suggestions about the page layout.

@@ -18,26 +18,34 @@ Visit the deployed site: [Pepe Beach Haven](https://pswhdev.github.io/pepe-beach
 
 ## Responsiveness test
 
- The website is fully responsvive resizing the content of all pages according to the devices's screen sizes as can be seen on the images below.
+- Responsiveness tests were conducted manually by accessing the live website using different computer, browsers and mobile devices.
 
-### The home page:
+- The website is fully responsvive resizing the content of all pages according to the devices's screen sizes as can be seen on the images below.
+
+    - The home page:
 ![Responsive home](documentation/am-i-responsive-index-two.png)
 
-### The accommodation page:
+    - The accommodation page:
 ![Responsive accomodation](documentation/am-i-responsive-accommodation.png)
 
-### The FAQ page:
+    - The FAQ page:
 ![Responsive faq](documentation/am-i-responsive-faq.png)
 
-### The contact us page:
+    - The contact us page:
 ![Responsive contact us](documentation/am-i-responsive-contact.png)
 
-### The thank you page:
+    - The thank you page:
 ![Responsive thank you](documentation/am-i-responsive-thankyou.png)
 
-## Validator Testing 
 
-- HTML
+## AUTOMATED TESTING
+
+### W3C Validator
+
+[W3C](https://validator.w3.org/) was used to validate the HTML on all pages of the website. It was also used to validate the CSS.
+
+- HTML:
+
   - No errors were returned when passing through the official W3C validator:
 
     - [Home page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpswhdev.github.io%2Fpepe-beach-haven%2Findex.html)
@@ -50,159 +58,80 @@ Visit the deployed site: [Pepe Beach Haven](https://pswhdev.github.io/pepe-beach
 
     - [Thank you page](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpswhdev.github.io%2Fpepe-beach-haven%2Fthank.html)
   
-- CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fpswhdev.github.io%2Fpepe-beach-haven%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
-  
-- Lighthouse tests:
-    - All pages were tested using the Lighthouse feature on Dev Tools from Google Chrome. The results can be seen on the pictures below. The pictures with a black backgroung are the results of tests conducted for desktop version whereas the ones with a white background are the results of tests for mobile version:
+- CSS:
 
-Home page:
+  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fpswhdev.github.io%2Fpepe-beach-haven%2Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
+
+  
+### Lighthouse tests:
+- All pages were tested using the Lighthouse feature on Dev Tools from Google Chrome. The results can be seen on the pictures below. The pictures with a black backgroung are the results of tests conducted for desktop version whereas the ones with a white background are the results of tests for mobile version:
+
+- Home page:
 
 ![Home page lh test desktop](documentation/lh-index-desktop.png)
 
 ![Home page lh test mobile](documentation/lh-mobile-index.png)
 
-Accomodation page:
+- Accommodation page:
 
 ![Accommodation page lh test desktop](documentation/lh-accommodation-desktop.png)
 
 ![Accommodation page lh test mobile](documentation/lh-mobile-accommodation.png)
 
-FAQ page:
+- FAQ page:
 
 ![FAQ page lh test desktop](documentation/lh-desktop-faq.png)
 
 ![FAQ page lh test mobile](documentation/lh-mobile-faq.png)
 
-Contact page:
+- Contact page:
 
 ![Contact page lh test desktop](documentation/lh-desktop-contact.png)
 
 ![Contact page lh test mobile](documentation/lh-mobile-contact.png)
 
-Thanks you page:
+- Thank you page:
 
 ![Thank you page lh test desktop](documentation/lh-desktop-thankyou.png)
 
 ![Thank you page lh test mobile](documentation/lh-mobile-thankyou.png)
 
 
-
-
-
-
-
-- - -
-
-
-
-Testing was ongoing throughout the entire build. I utilised Chrome developer tools whilst building to pinpoint and troubleshoot any issues as I went along.
-
-During development I made use of google developer tools to ensure everything was working correctly and to assist with troubleshooting when things were not working as expected.
-
-I utilised the console in the developer tools to work through small sections of JavaScript and ensure that the code was working, and also to troubleshoot where issues were.
-
-I have gone through each page using google chrome developer tools & Firefox inspector tool to ensure that each page is responsive on a variety of different screen sizes and devices.
-
-- - -
-
-## AUTOMATED TESTING
-
-### W3C Validator
-
-[W3C](https://validator.w3.org/) was used to validate the HTML on all pages of the website. It was also used to validate the CSS.
-
-* [index.html](testing/w3/w3-index.png) - Passed.
-* [game.html](testing/w3/w3-game.png) - No errors, 1 Warning. The warning is for an empty H2 tag. This is where the question is inserted using jQuery.
-* [highscores.html](testing/w3/w3-highscores.png) - Passed.
-* [404.html](testing/w3/w3-404.png) - Passed.
-* [500.html](testing/w3/w3-500.png) - Passed.
-
-* [style.css](testing/w3/w3-css.png) - Passed, no errors found.
-
-- - -
-
-### JavaScript Validator
-
-[jshint](https://jshint.com/) was used to validate the JavaScript.
-
-* [javascript.js](testing/jshint/jshint-javascript.png) - Passed.
-* [game.js](testing/jshint/jshint-game.png) - Passed with one warning. Async functions are only available in ES8. It also stated that there are 4 unused variables, however these are being used.
-* [highscores.js](testing/jshint/jshint-highscores.png) - Passed.
-
-- - -
-
-### Lighthouse
-
-I used Lighthouse within the Chrome Developer Tools to test the performance, accessibility, best practices and SEO of the website.
-
-### Desktop Results
-
-All pages of the site are achieving a score of 100 across the 4 categories.
-
-![index.html](testing/lighthouse/lighthouse-desktop-index.webp)
-
-![game.html](testing/lighthouse/lighthouse-desktop-game.webp)
-
-![highscores.html](testing/lighthouse/lighthouse-desktop-highscores.webp)
-
-![404.html](testing/lighthouse/lighthouse-desktop-404.webp)
-
-![500.html](testing/lighthouse/lighthouse-desktop-500.png)
-
-### Mobile Results
-
-Each page is achieving a score of 100 for the last three categories. The performance category is achieving a score of 98 for the first three pages and a score of 99 on the 404 & 500 page.
-
-![index.html](testing/lighthouse/lighthouse-mobile-index.webp)
-
-![game.html](testing/lighthouse/lighthouse-mobile-game.webp)
-
-![highscores.html](testing/lighthouse/lighthouse-mobile-highscores.webp)
-
-![404.html](testing/lighthouse/lighthouse-mobile-404.webp)
-
-![500.html](testing/lighthouse/lighthouse-mobile-500.png)
-
-- - -
-
 ## MANUAL TESTING
 
 ### Testing User Stories
 
-`First Time Visitors`
+- Expectation:
+As a traveler planning a trip to Rio de Janeiro:
+I want to easily find and book accommodation so I can have a comfortable place to stay during my visit.
+- Result:
+When I open the website, I can see that it is a page advertising a vacation rental. I can easily find the link that redirects me to the Airbnb page where the apartment is listed for booking.
 
-| Goals | How are they achieved? |
-| :--- | :--- |
-| I want to take part in a pub quiz online and improve my general knowledge. I want to be able to play at any time, anywhere. | The Quiz Arms pulls general knowledge quiz questions from a large variety of topics, much like a pub quiz would do. The site is available for use whenever is convenient to the user. |
-| I want the site to be responsive to my device. | I have developed the site with responsiveness in mind. |
-| I want the site to be easy to navigate. | Buttons are used throughout the site for navigation, much like a mobile app. As the site is like a mobile app - I decided that I didn't want to add a navigation bar or footer, as these would make the site look more like a traditional webpage. The page title also acts as a link to the home page.  |
+- Expectation:
+I want to view high-quality photos of the apartment, so I can decide if it is a place I would like to stay.
+- Result:
+I can intuitively find the Accommodation section on the navigation menu, which takes me to the accommodation's page with high-resolution photos depicting all the apartment rooms.
 
-`Returning Visitors`
+- Expectation:
+I want to access practical information about the surrounding area to help plan my activities during my stay.
+- Result:
+On the home page, I can see a functioning map of the area where I can study the surroundings using Google Maps and explore nearby amenities and attractions.
 
-|  Goals | How are they achieved? |
-| :--- | :--- |
-| I want to be able to choose a level of difficulty that I feel is appropriate for me, based on my experience from my first visit to the site. | Users are able to select their own level of difficulty before the game begins. Once they have played they are free to select a different level of difficulty for subsequent games. |
-
-`Frequent Visitors`
-
-| Goals | How are they achieved? |
-| :--- | :--- |
-| I want to be able to adjust the difficulty level to keep improving my knowledge. | Users are able to select their own level of difficulty before the game begins. Once they have played they are free to select a different level of difficulty for subsequent games. |
-| I want to be able to log my high scores to see how I am performing. | Users of the site are able to log their high scores to the high scores page. The top ten results will be displayed. |
-
-- - -
+- Expectation:
+I want to easily find answers to frequently asked questions (FAQs) such as check-in process, and policies.
+- Result:
+On the navigation menu and in the page's footer, I see links that redirect me to the FAQ page, where I find answers to my questions.
 
 ### Full Testing
 
 Full testing was performed on the following devices:
 
-* Laptop:
-  * Macbook Pro 2021 14 inch screen
-* Mobile Devices:
-  * iPhone 13 pro.
-  * iPhone 11 pro.
-  * Phone X.
+- Laptop:
+  - Macbook Air 13 inch screen
+- Mobile Devices:
+  - iPhone 13 pro.
+  - iPhone 11 pro.
+  - Phone X.
 
 Each device tested the site using the following browsers:
 
