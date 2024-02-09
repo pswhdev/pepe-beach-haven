@@ -237,7 +237,7 @@ iframe {
 }
 
 .one-room-collection {
-  max-width: 1200px;
+  max-width: 1000px;
   flex: 1 1 500px;
   color: #f2e4dc;
   background-color: rgba(255, 255, 255, 0.2);
