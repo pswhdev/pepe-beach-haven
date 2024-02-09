@@ -1,4 +1,4 @@
-## Testing 
+# Testing 
 
 A series of manual tests were conducted to ensure the robust functionality and usability of the website. Each project feature, like navigation menu, links and form submissions were carefully examined to ascertain its proper operation and alignment with user needs.
 
@@ -19,7 +19,7 @@ The testing in different  browsers and diverse computers and mobile devices of d
 ### The thank you page:
 ![Responsive thank you](documentation/am-i-responsive-thankyou.png)
 
-### Fixed bugs
+## Fixed bugs
 During the test phase a few bugs were detected and corrected accordingly:
 1. The logo and the logo text wouldn't align nicely, so after trying numerous approaches the problem was fixed by using `position: relative;` and definig the distance to the bottom `bottom: 16px;` for the logo's text;
 2. The nav toggle showed the same missalignment and the same approach was used to fix it;
@@ -27,11 +27,14 @@ During the test phase a few bugs were detected and corrected accordingly:
 4. The background color of the containers on the reasons section as well as the container that groups the photos on the accommodation page and the container of the form on contact and the message on the "thank you" pages didn't offer enough contrast making the text difficult to read. To fix this issue, the transparency was reduced and it created more contrast while still adding a nice look on the pages;
 5. The embedded Google Maps would not cover the width of the page. The fix for the problem was to set a ` width: 100%;` on a css rule for the iframe element;
 6. The photos on the accommodation page were not displaying nicely when looked on larger screens. To remediate the situation, the order of the room's photos was changed using the css "order" property.
+7. During the Mid-Point Project Review call with my mentor it was pointed out that the contact us form could be submitted with an empty space on the First name and Last name fields,even though the "required" property was present in the input elements. After looking online on how to solve the problem, the following solution was found on the [Stackoverflow website](https://stackoverflow.com/questions/13766015/is-it-possible-to-configure-a-required-field-to-ignore-white-space) and the following attributes were added to the input elements: `required pattern=".*\S+.*" title="This field is required"`.
+8. The navigation
+
+## Known bugs
+1. The message on the 
 
 
-
-
-### Validator Testing 
+## Validator Testing 
 
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpswhdev.github.io%2Fpepe-beach-haven%2Findex.html)
