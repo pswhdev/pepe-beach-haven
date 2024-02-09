@@ -80,7 +80,9 @@ The website is an advertising for a vacation rental and it is targeted for turis
 - Add link or embedded video of a webcam with live images of the beach (start to be controled bu the user to avoid bad user experience)
 
 
+## [Testing](TESTING.md)
 
+The testing section was saved as a separate file, to access it, just click the Heading "Testing" of the current section.
 
 ## Deployment
 

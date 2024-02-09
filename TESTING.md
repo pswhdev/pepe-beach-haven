@@ -28,10 +28,12 @@ During the test phase a few bugs were detected and corrected accordingly:
 5. The embedded Google Maps would not cover the width of the page. The fix for the problem was to set a ` width: 100%;` on a css rule for the iframe element;
 6. The photos on the accommodation page were not displaying nicely when looked on larger screens. To remediate the situation, the order of the room's photos was changed using the css "order" property.
 7. During the Mid-Point Project Review call with my mentor it was pointed out that the contact us form could be submitted with an empty space on the First name and Last name fields,even though the "required" property was present in the input elements. After looking online on how to solve the problem, the following solution was found on the [Stackoverflow website](https://stackoverflow.com/questions/13766015/is-it-possible-to-configure-a-required-field-to-ignore-white-space) and the following attributes were added to the input elements: `required pattern=".*\S+.*" title="This field is required"`.
-8. The navigation
+8. The navigation menu was not nicely aligned when the site was visited using the Mozilla Firefox browser.
+
+
 
 ## Known bugs
-1. The message on the 
+1. The fix for problem 7 didn't work 100% on the textarea input field. It does stop the message from beign sent without any character beign typed, but doesn't stop it from being sent with a space. So far I couldn't find a solution for this problem using exclusively html language and I believe the use of aditional programming, using JavaScript would be necessary to fix this problem.
 
 
 ## Validator Testing 
