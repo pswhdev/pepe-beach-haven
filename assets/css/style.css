@@ -418,6 +418,7 @@ footer {
   #menu-nav {
     display: flex;
     justify-content: flex-end;
+    /* To fix the alignment problem on Firefox */
     align-self: flex-end;
     flex: 1 0 auto;
   }
