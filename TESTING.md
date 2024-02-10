@@ -13,7 +13,7 @@
 
 A series of manual tests were conducted to ensure the robust functionality and usability of the website. Each project feature, like navigation menu, links and form submissions were carefully examined to ascertain its proper operation and alignment with user needs.
 
-The testing in different  browsers and diverse computers and mobile devices of different sizes and models show the website works reliably and effectivelly, providing users with a smooth navigation experience.
+The testing in different  browsers and diverse computers and mobile devices of different sizes and models show the website works reliably and effectively, providing users with a smooth navigation experience.
 
 Visit the deployed site: [Pepe Beach Haven](https://pswhdev.github.io/pepe-beach-haven/)
 
@@ -21,7 +21,7 @@ Visit the deployed site: [Pepe Beach Haven](https://pswhdev.github.io/pepe-beach
 
 - Responsiveness tests were conducted manually by accessing the live website using different computer, browsers and mobile devices.
 
-- The website is fully responsvive resizing the content of all pages according to the devices's screen sizes as can be seen on the images below.
+- The website is fully responsive, resizing the content of all pages according to the device's screen sizes, as can be seen in the images below.
 
     - The home page:
 ![Responsive home](documentation/am-i-responsive-index-two.png)
@@ -65,7 +65,7 @@ Visit the deployed site: [Pepe Beach Haven](https://pswhdev.github.io/pepe-beach
 
   
 ### Lighthouse tests:
-- All pages were tested using the Lighthouse feature on Dev Tools from Google Chrome. The results can be seen on the pictures below. The pictures with a black backgroung are the results of tests conducted for desktop version whereas the ones with a white background are the results of tests for mobile version:
+- All pages were tested using the Lighthouse feature in Dev Tools from Google Chrome. The results can be seen in the pictures below. The pictures with a black background show the results of tests conducted for the desktop version, whereas the ones with a white background show the results of tests for the mobile version:
 
 - Home page:
 
@@ -106,7 +106,7 @@ Visit the deployed site: [Pepe Beach Haven](https://pswhdev.github.io/pepe-beach
 As a traveler planning a trip to Rio de Janeiro:
 I want to easily find and book accommodation so I can have a comfortable place to stay during my visit.
 - Result:
-When I open the website, I can see that it is a page advertising a vacation rental. I can easily find the link that redirects me to the Airbnb page where the apartment is listed for booking.
+When I open the website, I see that it is a page advertising a vacation rental. I can easily find the link that redirects me to the Airbnb page where the apartment is listed for booking.
 
 - Expectation:
 I want to view high-quality photos of the apartment, so I can decide if it is a place I would like to stay.
@@ -121,7 +121,7 @@ On the home page, I can see a functioning map of the area where I can study the 
 - Expectation:
 I want to easily find answers to frequently asked questions (FAQs) such as check-in process, and policies.
 - Result:
-On the navigation menu and in the page's footer, I see links that redirect me to the FAQ page, where I find answers to my questions.
+On the navigation menu and in the page's footer, I see links that redirect me to the FAQ page, where I can find answers to my questions.
 
 ### Full Testing
 

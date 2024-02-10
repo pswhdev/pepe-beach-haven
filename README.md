@@ -230,7 +230,7 @@ Please refer to [TESTING.md](TESTING.md) file for details on all testing conduct
 
 ## Fixed bugs
 During the test phase a few bugs were detected and corrected accordingly:
-1. The logo and the logo text initially didn't align nicely. After attempting various approaches, the issue was resolved by utilizing position: relative; and defining the distance to the bottom using bottom: 16px; for the logo's text.
+1. The logo and the logo text initially didn't align nicely. After attempting various approaches, the issue was resolved by utilizing `position: relative;` and defining the distance to the bottom using `bottom: 16px;` for the logo's text.
 2. The nav toggle showed the same misalignment and the same approach was used to fix it.
 3. The mountain on the homepage's image would be cropped on very large screens (1600px) and didn't look as good. To address this issue, a media query was implemented specifically for very large screens, adjusting the height of the image to ensure optimal display.
 4. The background color of the containers in the reasons section, the containers grouping the photos on the accommodation page, the container of the form on the contact page and the one enclosing the message on the "thank you" page, didn't offer enough contrast, making the text difficult to read. To address this issue, the transparency was reduced, creating more contrast while still maintaining a visually pleasing appearance on the pages.
