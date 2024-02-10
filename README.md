@@ -103,7 +103,7 @@ The website serves as an advertisement for vacation rentals targeted at tourists
 
   - Multi-language support providing translation to multiple languages to meet the needs of a wider audience of international travelers.
   - Link or widget to display the weather forecast.
-  - Local Area Guide: Provide a comprehensive guide to the local area, including information on nearby attractions, activities, and amenities.
+  - Comprehensive guide to the local area, including information on nearby attractions, activities, and amenities.
   - A list of available amenities and electronic appliances.
   - A link or embedded video of a webcam with live images of the beach (user-controlled to prevent bad user experience).
 
